@@ -1,5 +1,7 @@
 #import "GPUImageContext.h"
 #import <OpenGLES/EAGLDrawable.h>
+#import <MoltenGL/MoltenGL.h>
+#import <MoltenGL/EAGLDrawable.h>
 #import <AVFoundation/AVFoundation.h>
 
 #define MAXSHADERPROGRAMSALLOWEDINCACHE 40
