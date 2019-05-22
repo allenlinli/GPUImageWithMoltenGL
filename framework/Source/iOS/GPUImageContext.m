@@ -300,8 +300,17 @@ static void *openGLESContextQueueKey;
     {
 #if defined(__IPHONE_6_0)
 //        CVReturn err = CVOpenGLESTextureCacheCreate(kCFAllocatorDefault, NULL, [self context], NULL, &_coreVideoTextureCache);
-        CVReturn err = CVMetalTextureCacheCreate(kCFAllocatorDefault, NULL, [self context], NULL, &_coreVideoTextureCache);
 
+        CVMetalTextureCacheRef CV_NULLABLE * CV_NONNULL _coreMetalVideoTextureCache = (CVMetalTextureCacheRef CV_NULLABLE * CV_NONNULL)_coreVideoTextureCache;
+        CVReturn err = CVMetalTextureCacheCreate(kCFAllocatorDefault, NULL, MTLCreateSystemDefaultDevice(), NULL, _coreMetalVideoTextureCache);
+
+
+//        CV_EXPORT CVReturn CVOpenGLESTextureCacheCreate(
+//                                                        CFAllocatorRef CV_NULLABLE allocator,
+//                                                        CFDictionaryRef CV_NULLABLE cacheAttributes,
+//                                                        CVEAGLContext CV_NONNULL eaglContext,
+//                                                        CFDictionaryRef CV_NULLABLE textureAttributes,
+//                                                        CV_RETURNS_RETAINED_PARAMETER CVOpenGLESTextureCacheRef CV_NULLABLE * CV_NONNULL cacheOut) COREVIDEO_GL_DEPRECATED(ios, 5.0, 12.0) COREVIDEO_GL_DEPRECATED(tvos, 9.0, 12.0) API_UNAVAILABLE(macosx) __WATCHOS_PROHIBITED;
 //        CV_EXPORT CVReturn CVMetalTextureCacheCreate(
 //                                                     CFAllocatorRef CV_NULLABLE allocator,
 //                                                     CFDictionaryRef CV_NULLABLE cacheAttributes,
