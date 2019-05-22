@@ -4,4 +4,10 @@
 
 #ifdef __OBJC__
     #import <Foundation/Foundation.h>
+    #import <MoltenGL/MoltenGL.h>
+    #import <MoltenGL/EAGLDrawable.h>
+    #import <MoltenGL/gl.h>
+    #import <MoltenGL/glext.h>
+    #import <MoltenGL/EAGL.h>
+    #import <MoltenGL/GLKView.h>
 #endif
