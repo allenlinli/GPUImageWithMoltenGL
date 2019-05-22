@@ -2,6 +2,10 @@
 #import <OpenGLES/EAGLDrawable.h>
 #import <MoltenGL/MoltenGL.h>
 #import <MoltenGL/EAGLDrawable.h>
+#import <MoltenGL/gl.h>
+#import <MoltenGL/glext.h>
+#import <MoltenGL/EAGL.h>
+#import <MoltenGL/GLKView.h>
 #import <AVFoundation/AVFoundation.h>
 
 #define MAXSHADERPROGRAMSALLOWEDINCACHE 40
