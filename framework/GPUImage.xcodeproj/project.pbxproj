@@ -1093,11 +1093,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC57607C19441DF10096FFA5 /* QuartzCore.framework in Frameworks */,
 				FF362BF32294E33C0049BDD4 /* Metal.framework in Frameworks */,
 				BC57607F19441E060096FFA5 /* Foundation.framework in Frameworks */,
 				BC57607E19441E010096FFA5 /* UIKit.framework in Frameworks */,
 				BC57607D19441DF60096FFA5 /* AVFoundation.framework in Frameworks */,
-				BC57607C19441DF10096FFA5 /* QuartzCore.framework in Frameworks */,
 				BC57607B19441DE80096FFA5 /* OpenGLES.framework in Frameworks */,
 				BC57607A19441DE00096FFA5 /* CoreVideo.framework in Frameworks */,
 				BC57607919441DD90096FFA5 /* CoreMedia.framework in Frameworks */,
@@ -1109,12 +1109,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCB5E77314E20B9100701302 /* QuartzCore.framework in Frameworks */,
 				FF362BF42294E3430049BDD4 /* Metal.framework in Frameworks */,
 				D30ACF231BAFE3DD00E9759C /* AssetsLibrary.framework in Frameworks */,
 				BCB5E77914E20BAF00701302 /* CoreMedia.framework in Frameworks */,
 				BCB5E77714E20BA800701302 /* CoreVideo.framework in Frameworks */,
 				BCB5E77514E20B9700701302 /* OpenGLES.framework in Frameworks */,
-				BCB5E77314E20B9100701302 /* QuartzCore.framework in Frameworks */,
 				BCB5E77114E20B8A00701302 /* AVFoundation.framework in Frameworks */,
 				BCB5E76F14E20B8000701302 /* UIKit.framework in Frameworks */,
 				BCF1A33814DDB1EC00852800 /* Foundation.framework in Frameworks */,
