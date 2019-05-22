@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = '5.0'
   s.ios.exclude_files = 'framework/Source/Mac'
-  s.ios.frameworks   = ['OpenGLES', 'CoreMedia', 'QuartzCore', 'AVFoundation']
+  s.ios.frameworks   = ['OpenGLES', 'CoreMedia', 'QuartzCore', 'AVFoundation', 'Metal']
   s.ios..dependency "MoltenGL", "~> 0.22.2"
 
   s.osx.deployment_target = '10.6'
