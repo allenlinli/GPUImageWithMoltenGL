@@ -4,9 +4,14 @@
 #import <OpenGLES/EAGL.h>
 #import <OpenGLES/ES2/gl.h>
 #import <OpenGLES/ES2/glext.h>
+#import <MoltenGL/MoltenGL.h>
+#import <MoltenGL/gl.h>
+#import <MoltenGL/glext.h>
 #else
 #import <OpenGL/OpenGL.h>
 #import <OpenGL/gl.h>
+#import <MoltenGL/MoltenGL.h>
+#import <MoltenGL/gl.h>
 #endif
 
 #import <QuartzCore/QuartzCore.h>

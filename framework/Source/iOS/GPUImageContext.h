@@ -1,6 +1,8 @@
 #import "GLProgram.h"
 #import "GPUImageFramebuffer.h"
 #import "GPUImageFramebufferCache.h"
+#import <MoltenGL/MoltenGL.h>
+#import <MoltenGL/EAGL.h>
 
 #define GPUImageRotationSwapsWidthAndHeight(rotation) ((rotation) == kGPUImageRotateLeft || (rotation) == kGPUImageRotateRight || (rotation) == kGPUImageRotateRightFlipVertical || (rotation) == kGPUImageRotateRightFlipHorizontal)
 
