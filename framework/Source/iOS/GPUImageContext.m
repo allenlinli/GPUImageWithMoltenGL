@@ -7,6 +7,7 @@
 #import <MoltenGL/EAGL.h>
 #import <MoltenGL/GLKView.h>
 #import <AVFoundation/AVFoundation.h>
+#import <Metal/Metal.h>
 
 #define MAXSHADERPROGRAMSALLOWEDINCACHE 40
 
@@ -298,7 +299,15 @@ static void *openGLESContextQueueKey;
     if (_coreVideoTextureCache == NULL)
     {
 #if defined(__IPHONE_6_0)
-        CVReturn err = CVOpenGLESTextureCacheCreate(kCFAllocatorDefault, NULL, [self context], NULL, &_coreVideoTextureCache);
+//        CVReturn err = CVOpenGLESTextureCacheCreate(kCFAllocatorDefault, NULL, [self context], NULL, &_coreVideoTextureCache);
+        CVReturn err = CVMetalTextureCacheCreate(kCFAllocatorDefault, NULL, [self context], NULL, &_coreVideoTextureCache);
+
+//        CV_EXPORT CVReturn CVMetalTextureCacheCreate(
+//                                                     CFAllocatorRef CV_NULLABLE allocator,
+//                                                     CFDictionaryRef CV_NULLABLE cacheAttributes,
+//                                                     id <MTLDevice> CV_NONNULL metalDevice,
+//                                                     CFDictionaryRef CV_NULLABLE textureAttributes,
+//                                                     CV_RETURNS_RETAINED_PARAMETER CVMetalTextureCacheRef CV_NULLABLE * CV_NONNULL cacheOut ) API_AVAILABLE(macosx(10.11), ios(8.0), tvos(9.0)) __WATCHOS_PROHIBITED;
 #else
         CVReturn err = CVOpenGLESTextureCacheCreate(kCFAllocatorDefault, NULL, (__bridge void *)[self context], NULL, &_coreVideoTextureCache);
 #endif
