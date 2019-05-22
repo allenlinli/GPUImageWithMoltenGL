@@ -721,6 +721,7 @@
 		FF362BF42294E3430049BDD4 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF362BF22294E33C0049BDD4 /* Metal.framework */; };
 		FFE2C5C72294F1BB009D2938 /* GPUImageWithMoltenGL.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FFE2C5C62294F1BB009D2938 /* GPUImageWithMoltenGL.podspec */; };
 		FFE2C5C92295025D009D2938 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE2C5C82295025D009D2938 /* CoreGraphics.framework */; };
+		FFE2C5CA229531F5009D2938 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE2C5C82295025D009D2938 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1112,6 +1113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE2C5CA229531F5009D2938 /* CoreGraphics.framework in Frameworks */,
 				BCB5E77314E20B9100701302 /* QuartzCore.framework in Frameworks */,
 				FF362BF42294E3430049BDD4 /* Metal.framework in Frameworks */,
 				D30ACF231BAFE3DD00E9759C /* AssetsLibrary.framework in Frameworks */,
