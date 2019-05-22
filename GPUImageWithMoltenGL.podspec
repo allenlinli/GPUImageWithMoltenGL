@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
   s.ios.dependency "MoltenGL", "~> 0.22.2"
 
   s.osx.deployment_target = '10.6'
+  s.static_framework = true
   s.osx.exclude_files = 'framework/Source/iOS',
                         'framework/Source/GPUImageFilterPipeline.*',
                         'framework/Source/GPUImageMovieComposition.*',
