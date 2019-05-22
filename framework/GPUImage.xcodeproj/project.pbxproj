@@ -719,6 +719,7 @@
 		D443237B17C81C0C00204484 /* GPUImageMovieComposition.m in Sources */ = {isa = PBXBuildFile; fileRef = D443237917C81C0C00204484 /* GPUImageMovieComposition.m */; };
 		FF362BF32294E33C0049BDD4 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF362BF22294E33C0049BDD4 /* Metal.framework */; };
 		FF362BF42294E3430049BDD4 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF362BF22294E33C0049BDD4 /* Metal.framework */; };
+		FFE2C5C72294F1BB009D2938 /* GPUImageWithMoltenGL.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FFE2C5C62294F1BB009D2938 /* GPUImageWithMoltenGL.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1084,6 +1085,7 @@
 		D443237917C81C0C00204484 /* GPUImageMovieComposition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPUImageMovieComposition.m; path = Source/GPUImageMovieComposition.m; sourceTree = SOURCE_ROOT; };
 		E5C643F083DF7BCB29914631 /* Pods-GPUImageFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImageFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImageFramework/Pods-GPUImageFramework.release.xcconfig"; sourceTree = "<group>"; };
 		FF362BF22294E33C0049BDD4 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		FFE2C5C62294F1BB009D2938 /* GPUImageWithMoltenGL.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GPUImageWithMoltenGL.podspec; path = ../GPUImageWithMoltenGL.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1518,6 +1520,7 @@
 		BCF1A32914DDB1EC00852800 = {
 			isa = PBXGroup;
 			children = (
+				FFE2C5C62294F1BB009D2938 /* GPUImageWithMoltenGL.podspec */,
 				BCF1A33914DDB1EC00852800 /* GPUImage */,
 				BCF1A33614DDB1EC00852800 /* Frameworks */,
 				BCF1A33514DDB1EC00852800 /* Products */,
@@ -2015,6 +2018,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = BCF1A32914DDB1EC00852800;
@@ -2034,6 +2038,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE2C5C72294F1BB009D2938 /* GPUImageWithMoltenGL.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
