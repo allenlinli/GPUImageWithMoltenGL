@@ -1,0 +1,6 @@
+framework module Pods_GPUImageFramework {
+  umbrella header "Pods-GPUImageFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
