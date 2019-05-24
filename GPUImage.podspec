@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '5.0'
   s.ios.exclude_files = 'framework/Source/Mac'
   s.ios.frameworks   = ['OpenGLES', 'CoreMedia', 'QuartzCore', 'AVFoundation']
-  
+  s.platform = :ios
   s.osx.deployment_target = '10.6'
   s.osx.exclude_files = 'framework/Source/iOS',
                         'framework/Source/GPUImageFilterPipeline.*',
