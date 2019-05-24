@@ -5,6 +5,13 @@
 #import "GPUImageOutput.h"
 #import "GPUImageColorConversion.h"
 
+#import <MoltenGL/MoltenGL.h>
+#import <MoltenGL/EAGLDrawable.h>
+#import <MoltenGL/gl.h>
+#import <MoltenGL/glext.h>
+#import <MoltenGL/EAGL.h>
+#import <MoltenGL/GLKView.h>
+
 //Optionally override the YUV to RGB matrices
 void setColorConversion601( GLfloat conversionMatrix[9] );
 void setColorConversion601FullRange( GLfloat conversionMatrix[9] );

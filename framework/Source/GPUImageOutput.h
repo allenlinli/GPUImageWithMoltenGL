@@ -1,6 +1,13 @@
 #import "GPUImageContext.h"
 #import "GPUImageFramebuffer.h"
 
+#import <MoltenGL/MoltenGL.h>
+#import <MoltenGL/EAGLDrawable.h>
+#import <MoltenGL/gl.h>
+#import <MoltenGL/glext.h>
+#import <MoltenGL/EAGL.h>
+#import <MoltenGL/GLKView.h>
+
 #if TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE
 #import <UIKit/UIKit.h>
 #else

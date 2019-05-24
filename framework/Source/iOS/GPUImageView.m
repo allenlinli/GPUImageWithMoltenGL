@@ -1,5 +1,8 @@
 #import "GPUImageView.h"
 #import <OpenGLES/EAGLDrawable.h>
+#import <MoltenGL/MoltenGL.h>
+#import <MoltenGL/EAGLDrawable.h>
+
 #import <QuartzCore/QuartzCore.h>
 #import "GPUImageContext.h"
 #import "GPUImageFilter.h"

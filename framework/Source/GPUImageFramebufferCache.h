@@ -2,6 +2,13 @@
 #import <QuartzCore/QuartzCore.h>
 #import "GPUImageFramebuffer.h"
 
+#import <MoltenGL/MoltenGL.h>
+#import <MoltenGL/EAGLDrawable.h>
+#import <MoltenGL/gl.h>
+#import <MoltenGL/glext.h>
+#import <MoltenGL/EAGL.h>
+#import <MoltenGL/GLKView.h>
+
 @interface GPUImageFramebufferCache : NSObject
 
 // Framebuffer management
