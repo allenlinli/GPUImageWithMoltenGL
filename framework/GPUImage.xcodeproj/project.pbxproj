@@ -717,7 +717,11 @@
 		D30ACF231BAFE3DD00E9759C /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30ACF221BAFE3DD00E9759C /* AssetsLibrary.framework */; };
 		D443237A17C81C0C00204484 /* GPUImageMovieComposition.h in Headers */ = {isa = PBXBuildFile; fileRef = D443237817C81C0C00204484 /* GPUImageMovieComposition.h */; };
 		D443237B17C81C0C00204484 /* GPUImageMovieComposition.m in Sources */ = {isa = PBXBuildFile; fileRef = D443237917C81C0C00204484 /* GPUImageMovieComposition.m */; };
+		FF362BF32294E33C0049BDD4 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF362BF22294E33C0049BDD4 /* Metal.framework */; };
+		FF362BF42294E3430049BDD4 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF362BF22294E33C0049BDD4 /* Metal.framework */; };
 		FFE2C5C72294F1BB009D2938 /* GPUImageWithMoltenGL.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FFE2C5C62294F1BB009D2938 /* GPUImageWithMoltenGL.podspec */; };
+		FFE2C5C92295025D009D2938 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE2C5C82295025D009D2938 /* CoreGraphics.framework */; };
+		FFE2C5CA229531F5009D2938 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE2C5C82295025D009D2938 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1082,7 +1086,9 @@
 		D443237817C81C0C00204484 /* GPUImageMovieComposition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPUImageMovieComposition.h; path = Source/GPUImageMovieComposition.h; sourceTree = SOURCE_ROOT; };
 		D443237917C81C0C00204484 /* GPUImageMovieComposition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPUImageMovieComposition.m; path = Source/GPUImageMovieComposition.m; sourceTree = SOURCE_ROOT; };
 		E5C643F083DF7BCB29914631 /* Pods-GPUImageFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImageFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImageFramework/Pods-GPUImageFramework.release.xcconfig"; sourceTree = "<group>"; };
+		FF362BF22294E33C0049BDD4 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		FFE2C5C62294F1BB009D2938 /* GPUImageWithMoltenGL.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GPUImageWithMoltenGL.podspec; path = ../GPUImageWithMoltenGL.podspec; sourceTree = "<group>"; };
+		FFE2C5C82295025D009D2938 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1090,10 +1096,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE2C5C92295025D009D2938 /* CoreGraphics.framework in Frameworks */,
+				BC57607C19441DF10096FFA5 /* QuartzCore.framework in Frameworks */,
+				FF362BF32294E33C0049BDD4 /* Metal.framework in Frameworks */,
 				BC57607F19441E060096FFA5 /* Foundation.framework in Frameworks */,
 				BC57607E19441E010096FFA5 /* UIKit.framework in Frameworks */,
 				BC57607D19441DF60096FFA5 /* AVFoundation.framework in Frameworks */,
-				BC57607C19441DF10096FFA5 /* QuartzCore.framework in Frameworks */,
 				BC57607B19441DE80096FFA5 /* OpenGLES.framework in Frameworks */,
 				BC57607A19441DE00096FFA5 /* CoreVideo.framework in Frameworks */,
 				BC57607919441DD90096FFA5 /* CoreMedia.framework in Frameworks */,
@@ -1105,14 +1113,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE2C5CA229531F5009D2938 /* CoreGraphics.framework in Frameworks */,
+				BCB5E77314E20B9100701302 /* QuartzCore.framework in Frameworks */,
+				FF362BF42294E3430049BDD4 /* Metal.framework in Frameworks */,
 				D30ACF231BAFE3DD00E9759C /* AssetsLibrary.framework in Frameworks */,
 				BCB5E77914E20BAF00701302 /* CoreMedia.framework in Frameworks */,
 				BCB5E77714E20BA800701302 /* CoreVideo.framework in Frameworks */,
 				BCB5E77514E20B9700701302 /* OpenGLES.framework in Frameworks */,
-				BCB5E77314E20B9100701302 /* QuartzCore.framework in Frameworks */,
 				BCB5E77114E20B8A00701302 /* AVFoundation.framework in Frameworks */,
 				BCB5E76F14E20B8000701302 /* UIKit.framework in Frameworks */,
 				BCF1A33814DDB1EC00852800 /* Foundation.framework in Frameworks */,
+				4A1FDEC603C9A32609894AF0 /* Pods_GPUImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1534,6 +1545,8 @@
 		BCF1A33614DDB1EC00852800 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FFE2C5C82295025D009D2938 /* CoreGraphics.framework */,
+				FF362BF22294E33C0049BDD4 /* Metal.framework */,
 				D30ACF221BAFE3DD00E9759C /* AssetsLibrary.framework */,
 				BCB5E77814E20BAF00701302 /* CoreMedia.framework */,
 				BCB5E77614E20BA800701302 /* CoreVideo.framework */,
