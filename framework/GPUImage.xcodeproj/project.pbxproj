@@ -1081,6 +1081,7 @@
 		D30ACF221BAFE3DD00E9759C /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		D443237817C81C0C00204484 /* GPUImageMovieComposition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPUImageMovieComposition.h; path = Source/GPUImageMovieComposition.h; sourceTree = SOURCE_ROOT; };
 		D443237917C81C0C00204484 /* GPUImageMovieComposition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPUImageMovieComposition.m; path = Source/GPUImageMovieComposition.m; sourceTree = SOURCE_ROOT; };
+		FF77DC66229B8DE4001AD101 /* GPUImageWithMoltenGL.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = GPUImageWithMoltenGL.podspec; path = ../GPUImageWithMoltenGL.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1524,6 +1525,7 @@
 		BCF1A32914DDB1EC00852800 = {
 			isa = PBXGroup;
 			children = (
+				FF77DC66229B8DE4001AD101 /* GPUImageWithMoltenGL.podspec */,
 				BCF1A33914DDB1EC00852800 /* GPUImage */,
 				BCF1A33614DDB1EC00852800 /* Frameworks */,
 				BCF1A33514DDB1EC00852800 /* Products */,
@@ -2009,6 +2011,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = BCF1A32914DDB1EC00852800;
