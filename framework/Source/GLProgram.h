@@ -8,9 +8,16 @@
 #if TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE
 #import <OpenGLES/ES2/gl.h>
 #import <OpenGLES/ES2/glext.h>
+
+#import <MoltenGL/MoltenGL.h>
+#import <MoltenGL/gl.h>
+#import <MoltenGL/glext.h>
 #else
 #import <OpenGL/OpenGL.h>
 #import <OpenGL/gl.h>
+
+#import <MoltenGL/MoltenGL.h>
+#import <MoltenGL/gl.h>
 #endif
 
 @interface GLProgram : NSObject 
