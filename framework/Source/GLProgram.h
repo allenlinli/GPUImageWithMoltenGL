@@ -8,6 +8,8 @@
 #if TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE
 #import <OpenGLES/ES2/gl.h>
 #import <OpenGLES/ES2/glext.h>
+//#import "QuartzCore/CAMetalLayer.h"
+#import <QuartzCore/CAMetalLayer.h>
 #else
 #import <OpenGL/OpenGL.h>
 #import <OpenGL/gl.h>
