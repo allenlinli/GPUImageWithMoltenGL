@@ -23,7 +23,7 @@
 		0E1B00871EE91C22A7B1B7C7E106BF90 /* Pods-GPUImage-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GPUImage-frameworks.sh"; sourceTree = "<group>"; };
 		153AE17C41291D6EC5069EEC7EA297E6 /* mglGLKitDataTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mglGLKitDataTypes.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/mglGLKitDataTypes.h; sourceTree = "<group>"; };
 		21CC6172E6EBE1B6FD1092A2424C2CC8 /* gltypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gltypes.h; path = MoltenGL/RedirectHeaders/include/OpenGLES/gltypes.h; sourceTree = "<group>"; };
-		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3FA83A23DCB75B97E4A45976D8AF9F3F /* gl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gl.h; path = MoltenGL/RedirectHeaders/include/OpenGLES/ES2/gl.h; sourceTree = "<group>"; };
 		442747027A93A694CD503C862FCD0ABE /* mglEnv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mglEnv.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/mglEnv.h; sourceTree = "<group>"; };
@@ -31,7 +31,7 @@
 		518EFC3D66A24CA2750FE617EEB3849E /* mglDataTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mglDataTypes.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/mglDataTypes.h; sourceTree = "<group>"; };
 		5338A82F60DD3864EF579B44C3DC7E45 /* Pods-GPUImageFramework-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPUImageFramework-acknowledgements.plist"; sourceTree = "<group>"; };
 		56165625A9B92D729C089D7E0DCA6476 /* MGLGLSLToMSLConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGLGLSLToMSLConverter.h; path = MoltenGLShaderConverter/iOS/MoltenGLShaderConverter.framework/Headers/MGLGLSLToMSLConverter.h; sourceTree = "<group>"; };
-		5842D6746A4967F3F061E2036174BAE3 /* Pods_GPUImageFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GPUImageFramework.framework; path = "Pods-GPUImageFramework.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5842D6746A4967F3F061E2036174BAE3 /* Pods_GPUImageFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPUImageFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A6C28D5B4BD937D8FC4425CE3E39D8F /* mglext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mglext.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/mglext.h; sourceTree = "<group>"; };
 		63086EBABDAF2E342ECEEE67A6DECCF9 /* Pods-GPUImage-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GPUImage-resources.sh"; sourceTree = "<group>"; };
 		6C29B2EF8A46B6C7DCC9373CD4A6AD95 /* Pods-GPUImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPUImage.release.xcconfig"; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		B2E90927F84CFB3C637941AADB08162A /* Pods-GPUImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GPUImage.modulemap"; sourceTree = "<group>"; };
 		BA6598F7C380EB00E7C0E487E1A95181 /* EAGL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EAGL.h; path = MoltenGL/RedirectHeaders/include/OpenGLES/EAGL.h; sourceTree = "<group>"; };
 		BC00499090869181630B0505BBDCF5E9 /* glext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = glext.h; path = MoltenGL/RedirectHeaders/include/OpenGLES/ES2/glext.h; sourceTree = "<group>"; };
-		C1C21B67AC30B50C77A5C874E91C5902 /* Pods_GPUImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GPUImage.framework; path = "Pods-GPUImage.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C21B67AC30B50C77A5C874E91C5902 /* Pods_GPUImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPUImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C402BD1BE6AE223E662F05A142EA72AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1184B623C673139E416F88A621A50AB /* Pods-GPUImageFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GPUImageFramework-umbrella.h"; sourceTree = "<group>"; };
 		E1389B941988BC6AB950C0EC4C26CC5F /* MoltenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MoltenGL.framework; path = MoltenGL/iOS/MoltenGL.framework; sourceTree = "<group>"; };
@@ -100,7 +100,6 @@
 				498C520D5B959B4ED984457F524E26E3 /* MoltenGL.h */,
 				67D8912E840D71AFEE06A6DC1D47BD55 /* Frameworks */,
 			);
-			name = MoltenGL;
 			path = MoltenGL;
 			sourceTree = "<group>";
 		};
@@ -542,8 +541,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
