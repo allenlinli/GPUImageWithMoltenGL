@@ -8,8 +8,7 @@ Pod::Spec.new do |s|
   s.author   = { 'Brad Larson' => 'contact@sunsetlakesoftware.com' }
   s.source   = { :git => 'https://github.com/allenlinli/GPUImageWithMoltenGL.git', :tag => "#{s.version}" }
   
-  #s.source_files = 'framework/Source/**/*.{h,m}'
-  s.vendored_frameworks = "GPUImageWithMoltenGL.framework"
+  s.source_files = 'framework/Source/**/*.{h,m}'
   s.resources = 'framework/Resources/*.png'
   s.requires_arc = true
   s.xcconfig = { 'CLANG_MODULES_AUTOLINK' => 'YES' }
