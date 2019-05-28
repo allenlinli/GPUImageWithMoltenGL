@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name     = 'GPUImage'
-  s.version  = '0.2.1'
+  s.name     = 'GPUImageWithMoltenGL'
+  s.module_name = 'GPUImage'
   s.version  = '1.0.0'
   s.license  = 'BSD'
   s.summary  = 'An open source iOS framework for GPU-based image and video processing.'
@@ -8,7 +8,8 @@ Pod::Spec.new do |s|
   s.author   = { 'Brad Larson' => 'contact@sunsetlakesoftware.com' }
   s.source   = { :git => 'https://github.com/allenlinli/GPUImageWithMoltenGL.git', :tag => "#{s.version}" }
   
-  s.source_files = 'framework/Source/**/*.{h,m}'
+  #s.source_files = 'framework/Source/**/*.{h,m}'
+  s.vendored_frameworks = "GPUImage.framework"
   s.resources = 'framework/Resources/*.png'
   s.requires_arc = true
   s.xcconfig = { 'CLANG_MODULES_AUTOLINK' => 'YES' }
