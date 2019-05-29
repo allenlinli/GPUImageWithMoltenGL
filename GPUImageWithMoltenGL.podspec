@@ -8,13 +8,11 @@ Pod::Spec.new do |s|
   s.author   = { 'Brad Larson' => 'contact@sunsetlakesoftware.com' }
   s.source   = { :git => 'https://github.com/allenlinli/GPUImageWithMoltenGL.git', :tag => "#{s.version}" }
   
-  #s.source_files = 'framework/Source/**/*.{h,m}'
   s.vendored_frameworks = "GPUImage.framework"
   s.resources = 'framework/Resources/*.png'
   s.requires_arc = true
   s.xcconfig = { 'CLANG_MODULES_AUTOLINK' => 'YES' }
   s.dependency "MoltenGL", "~> 0.22.2"
-  s.static_framework = true
   s.public_header_files = ["framework/Source/GPUImage.h"]
   s.source_files    = ["framework/Source/GPUImage.h"]
 
