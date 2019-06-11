@@ -20,5 +20,4 @@ Pod::Spec.new do |s|
   s.ios.exclude_files = 'framework/Source/Mac'
   s.ios.frameworks   = ['OpenGLES', 'CoreMedia', 'QuartzCore', 'AVFoundation']
   s.platform     = :ios, "8.0"
-  s.ios.dependency "MoltenGL", "~> 0.22.2"
 end
