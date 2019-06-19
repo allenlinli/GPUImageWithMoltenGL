@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name     = 'GPUImageWithMoltenGL'
   s.module_name = 'GPUImage'
-  s.version  = '1.0.0'
+  s.version  = '1.0.1'
   s.license  = 'BSD'
   s.summary  = 'An open source iOS framework for GPU-based image and video processing.'
   s.homepage = 'https://github.com/BradLarson/GPUImage'
@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.xcconfig = { 'CLANG_MODULES_AUTOLINK' => 'YES' }
   s.dependency "MoltenGL", "~> 0.22.2"
-  s.public_header_files = ["framework/Source/GPUImage.h"]
-  s.source_files    = ["framework/Source/GPUImage.h"]
+  s.public_header_files = 'framework/Source/**/*.h'
+  s.source_files = 'framework/Source/**/*.h'
 
   s.ios.deployment_target = '5.0'
   s.ios.exclude_files = 'framework/Source/Mac'
