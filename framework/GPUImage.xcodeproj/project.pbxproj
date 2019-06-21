@@ -1082,6 +1082,7 @@
 		D443237917C81C0C00204484 /* GPUImageMovieComposition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPUImageMovieComposition.m; path = Source/GPUImageMovieComposition.m; sourceTree = SOURCE_ROOT; };
 		F85E8F84009EED3A833FDD93 /* Pods-GPUImageFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImageFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImageFramework/Pods-GPUImageFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		FF473D29229D365D0039873C /* GPUImageWithMoltenGL.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = GPUImageWithMoltenGL.podspec; path = ../GPUImageWithMoltenGL.podspec; sourceTree = "<group>"; };
+		FF473D2A229D36690039873C /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1514,6 +1515,7 @@
 		BCF1A32914DDB1EC00852800 = {
 			isa = PBXGroup;
 			children = (
+				FF473D2A229D36690039873C /* Podfile */,
 				FF473D29229D365D0039873C /* GPUImageWithMoltenGL.podspec */,
 				BCF1A33914DDB1EC00852800 /* GPUImage */,
 				BCF1A33614DDB1EC00852800 /* Frameworks */,
