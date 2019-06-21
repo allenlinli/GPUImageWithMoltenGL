@@ -39,7 +39,19 @@
     }
     
     [self setupFilter];
+
+    EAGLContext * context = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES2]; // 1
+    GLKView *view = [[GLKView alloc] initWithFrame:[[UIScreen mainScreen] bounds]]; // 2
+    view.context = context; // 3
+    view.delegate = self; // 4
+    [self.view addSubview:view]; // 5
 }
+
+- (void)glkView:(GLKView *)view drawInRect:(CGRect)rect {
+    glClearColor(1.0, 0.0, 0.0, 1.0);
+    glClear(GL_COLOR_BUFFER_BIT);
+}
+
 
 - (void)viewWillDisappear:(BOOL)animated
 {

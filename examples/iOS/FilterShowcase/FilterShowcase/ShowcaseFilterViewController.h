@@ -1,6 +1,13 @@
 #import <UIKit/UIKit.h>
 #import "GPUImage.h"
 
+#import <OpenGLES/ES2/gl.h>
+#import <GLKit/GLKit.h>
+#import <MoltenGL/MoltenGL.h>
+#import <MoltenGL/EAGL.h>
+#import <MoltenGL/GLKView.h>
+#import <MoltenGL/gl.h>
+
 typedef enum {
     GPUIMAGE_SATURATION,
     GPUIMAGE_CONTRAST,
@@ -124,7 +131,7 @@ typedef enum {
 } GPUImageShowcaseFilterType; 
 
 
-@interface ShowcaseFilterViewController : UIViewController <GPUImageVideoCameraDelegate>
+@interface ShowcaseFilterViewController : UIViewController <GPUImageVideoCameraDelegate, GLKViewDelegate>
 {
     GPUImageVideoCamera *videoCamera;
     GPUImageOutput<GPUImageInput> *filter;
