@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name     = 'GPUImageWithMoltenGL'
   s.module_name = 'GPUImage'
-  s.version  = '1.0.3'
+  s.version  = '1.0.5'
   s.license  = 'BSD'
   s.summary  = 'An open source iOS framework for GPU-based image and video processing.'
   s.homepage = 'https://github.com/BradLarson/GPUImage'
