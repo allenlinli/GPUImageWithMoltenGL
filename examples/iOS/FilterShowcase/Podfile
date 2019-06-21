@@ -4,5 +4,4 @@ target 'FilterShowcase' do
   use_frameworks!
 
   pod 'MoltenGL', '~> 0.22.2'
-
 end
