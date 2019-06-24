@@ -297,8 +297,8 @@ static void *openGLESContextQueueKey;
 #if defined(__IPHONE_6_0)
 //        CVReturn err = CVOpenGLESTextureCacheCreate(kCFAllocatorDefault, NULL, [self context], NULL, &_coreVideoTextureCache);
 
-        CVMetalTextureCacheRef CV_NULLABLE * CV_NONNULL _coreMetalVideoTextureCache = (CVMetalTextureCacheRef CV_NULLABLE * CV_NONNULL)_coreVideoTextureCache;
-        CVReturn err = CVMetalTextureCacheCreate(kCFAllocatorDefault, NULL, MTLCreateSystemDefaultDevice(), NULL, _coreMetalVideoTextureCache);
+        CVMetalTextureCacheRef _coreMetalVideoTextureCache = (CVMetalTextureCacheRef) _coreVideoTextureCache;
+        CVReturn err = CVMetalTextureCacheCreate(kCFAllocatorDefault, NULL, MTLCreateSystemDefaultDevice(), NULL, &_coreMetalVideoTextureCache);
 
 
 //        CV_EXPORT CVReturn CVOpenGLESTextureCacheCreate(
