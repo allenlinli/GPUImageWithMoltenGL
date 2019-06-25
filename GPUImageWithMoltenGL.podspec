@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.xcconfig = { 'CLANG_MODULES_AUTOLINK' => 'YES' }
   s.dependency "MoltenGL", "~> 0.23.1"
-  s.source_files = 'framework/Source/**/*.{h,m}'
+  s.source_files = 'framework/Source/**/*.h'
   s.static_framework = true
 
   s.ios.deployment_target = '5.0'
