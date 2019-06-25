@@ -4,5 +4,5 @@ target 'FilterShowcase' do
   use_frameworks!
 
   pod 'MoltenGL', '~> 0.23.1'
-  pod 'GPUImageWithMoltenGL', :path=>'../../../'
+  pod 'GPUImageWithMoltenGL', '~> 1.0.8'
 end
