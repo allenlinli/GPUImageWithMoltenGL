@@ -717,6 +717,8 @@
 		D443237A17C81C0C00204484 /* GPUImageMovieComposition.h in Headers */ = {isa = PBXBuildFile; fileRef = D443237817C81C0C00204484 /* GPUImageMovieComposition.h */; };
 		D443237B17C81C0C00204484 /* GPUImageMovieComposition.m in Sources */ = {isa = PBXBuildFile; fileRef = D443237917C81C0C00204484 /* GPUImageMovieComposition.m */; };
 		E98D534BA9BC0FCE149A0DAB /* Pods_GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B8DA348EADA4F114B70551 /* Pods_GPUImage.framework */; };
+		FF6357EE22C203E300ACC7A1 /* GPUImageHistogramEqualizationFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = A4741D4E19A91F87005EE1A4 /* GPUImageHistogramEqualizationFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF6357EF22C203F700ACC7A1 /* GPUImageHistogramEqualizationFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4741D4F19A91F87005EE1A4 /* GPUImageHistogramEqualizationFilter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1684,6 +1686,7 @@
 				BCD81EDB194404ED007133DB /* GPUImageNobleCornerDetectionFilter.h in Headers */,
 				BCD81EDC194404EE007133DB /* GPUImageShiTomasiFeatureDetectionFilter.h in Headers */,
 				BCD81EDD194404EE007133DB /* GPUImageFASTCornerDetectionFilter.h in Headers */,
+				FF6357EE22C203E300ACC7A1 /* GPUImageHistogramEqualizationFilter.h in Headers */,
 				BCD81EDE194404EE007133DB /* GPUImageNonMaximumSuppressionFilter.h in Headers */,
 				BCD81EDF194404EE007133DB /* GPUImageThresholdedNonMaximumSuppressionFilter.h in Headers */,
 				BCD81EE0194404EE007133DB /* GPUImageCrosshairGenerator.h in Headers */,
@@ -2262,6 +2265,7 @@
 				BCD81FC919440606007133DB /* GPUImageMosaicFilter.m in Sources */,
 				BCD81FCA19440606007133DB /* GPUImageVoronoiConsumerFilter.m in Sources */,
 				BCFC5F691C18C3E200C7F43B /* GPUImageColorLocalBinaryPatternFilter.m in Sources */,
+				FF6357EF22C203F700ACC7A1 /* GPUImageHistogramEqualizationFilter.m in Sources */,
 				BCD81FCB19440606007133DB /* GPUImageView.m in Sources */,
 				BCD81FCC19440606007133DB /* GPUImageMovieWriter.m in Sources */,
 				BCD81FCD19440606007133DB /* GPUImageTextureOutput.m in Sources */,
