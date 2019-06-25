@@ -6,147 +6,181 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		10F7566BD4253963D83D12F4AD288400 /* MoltenGL */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F0F3B5D0065DC92669202A9860DE4C1A /* Build configuration list for PBXAggregateTarget "MoltenGL" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = MoltenGL;
+			productName = MoltenGL;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		32B2ADFE90A7EB7E00F32454E5DF8D6E /* Pods-GPUImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9F15D4394285BD2057A78D057180118 /* Pods-GPUImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48DEBB07B8730B72852FB4E1C6F916E7 /* Pods-GPUImageFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 084C06AA06EFBF20D09FC7930F258FF0 /* Pods-GPUImageFramework-dummy.m */; };
-		60A46936B7A1BA4BB7B91DEF0B99A2F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		7BEDDAB0BCA345400572E60F61E5A3FF /* Pods-GPUImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9152F6D4E75C8C642B1F58BFDC0F1307 /* Pods-GPUImage-dummy.m */; };
-		A6F2BBE5C5A01CE69A3F6BD56807C5C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F7F81C1739833A6E6DCBC945E147BBF8 /* Pods-GPUImageFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1184B623C673139E416F88A621A50AB /* Pods-GPUImageFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AE529A9A23767FED4CB523F17EF83C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		15E0C45DA0D2F7AE17B3669B951B5A40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		323108E48CEE62415297F28B31F59794 /* Pods-GPUImageFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93CF44F22B8BC5BDC6119E1990AE9FEC /* Pods-GPUImageFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EDE4B8EB7446F40AB249012988C729A /* Pods-GPUImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83B52D5FDA050D27C868627C758B38A0 /* Pods-GPUImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F84669A584284BD5A83BC7596F511FE /* Pods-GPUImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B640C1EFD8368FB9F3D7E52DB09F98 /* Pods-GPUImage-dummy.m */; };
+		FBDC0A867020424C76544DE29D77FE8F /* Pods-GPUImageFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 586E81FBA0B005CD83559B1E1F7C8C5B /* Pods-GPUImageFramework-dummy.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		15AC6199CF9A383598263F3483B40D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10F7566BD4253963D83D12F4AD288400;
+			remoteInfo = MoltenGL;
+		};
+		B077228811A1D29B6E683DFB681EC893 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10F7566BD4253963D83D12F4AD288400;
+			remoteInfo = MoltenGL;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		019ECDA9B9AC9CDEE6681E3558D66070 /* Pods-GPUImageFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPUImageFramework.debug.xcconfig"; sourceTree = "<group>"; };
-		06805A90D92DFD6459B8C705697383BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		084C06AA06EFBF20D09FC7930F258FF0 /* Pods-GPUImageFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GPUImageFramework-dummy.m"; sourceTree = "<group>"; };
-		084E9AE9F9219C62DBB903748A629D66 /* Pods-GPUImageFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPUImageFramework.release.xcconfig"; sourceTree = "<group>"; };
-		0E1B00871EE91C22A7B1B7C7E106BF90 /* Pods-GPUImage-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GPUImage-frameworks.sh"; sourceTree = "<group>"; };
-		153AE17C41291D6EC5069EEC7EA297E6 /* mglGLKitDataTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mglGLKitDataTypes.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/mglGLKitDataTypes.h; sourceTree = "<group>"; };
-		21CC6172E6EBE1B6FD1092A2424C2CC8 /* gltypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gltypes.h; path = MoltenGL/RedirectHeaders/include/OpenGLES/gltypes.h; sourceTree = "<group>"; };
-		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		014D3B8620150185835D9E300F4E1849 /* EAGLDrawable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EAGLDrawable.h; path = MoltenGL/RedirectHeaders/include/OpenGLES/EAGLDrawable.h; sourceTree = "<group>"; };
+		118CD75FF719466E428FCC9C53E976B4 /* Pods-GPUImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPUImage-Info.plist"; sourceTree = "<group>"; };
+		2089BEF33DD0507CD832871874B891B1 /* gltypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gltypes.h; path = MoltenGL/RedirectHeaders/include/OpenGLES/gltypes.h; sourceTree = "<group>"; };
+		22608CA5B953B8CBC7C22BFE387BB56F /* Pods-GPUImageFramework-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GPUImageFramework-acknowledgements.markdown"; sourceTree = "<group>"; };
+		25D9CCC0F5D191E599B9FB8EB535F895 /* MGLGLSLToMSLFileConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGLGLSLToMSLFileConverter.h; path = MoltenGLShaderConverter/iOS/MoltenGLShaderConverter.framework/Headers/MGLGLSLToMSLFileConverter.h; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3FA83A23DCB75B97E4A45976D8AF9F3F /* gl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gl.h; path = MoltenGL/RedirectHeaders/include/OpenGLES/ES2/gl.h; sourceTree = "<group>"; };
-		442747027A93A694CD503C862FCD0ABE /* mglEnv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mglEnv.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/mglEnv.h; sourceTree = "<group>"; };
-		498C520D5B959B4ED984457F524E26E3 /* MoltenGL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MoltenGL.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/MoltenGL.h; sourceTree = "<group>"; };
-		518EFC3D66A24CA2750FE617EEB3849E /* mglDataTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mglDataTypes.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/mglDataTypes.h; sourceTree = "<group>"; };
-		5338A82F60DD3864EF579B44C3DC7E45 /* Pods-GPUImageFramework-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPUImageFramework-acknowledgements.plist"; sourceTree = "<group>"; };
-		56165625A9B92D729C089D7E0DCA6476 /* MGLGLSLToMSLConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGLGLSLToMSLConverter.h; path = MoltenGLShaderConverter/iOS/MoltenGLShaderConverter.framework/Headers/MGLGLSLToMSLConverter.h; sourceTree = "<group>"; };
-		5842D6746A4967F3F061E2036174BAE3 /* Pods_GPUImageFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GPUImageFramework.framework; path = "Pods-GPUImageFramework.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A6C28D5B4BD937D8FC4425CE3E39D8F /* mglext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mglext.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/mglext.h; sourceTree = "<group>"; };
-		63086EBABDAF2E342ECEEE67A6DECCF9 /* Pods-GPUImage-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GPUImage-resources.sh"; sourceTree = "<group>"; };
-		6C29B2EF8A46B6C7DCC9373CD4A6AD95 /* Pods-GPUImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPUImage.release.xcconfig"; sourceTree = "<group>"; };
-		7973DC12F0ED2E1BCA57FE2CB351B342 /* mglMetalState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mglMetalState.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/mglMetalState.h; sourceTree = "<group>"; };
-		7AAE92DD7BE5CF0B3B50091A0058FDDC /* GLKView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLKView.h; path = MoltenGL/RedirectHeaders/include/GLKit/GLKView.h; sourceTree = "<group>"; };
-		806656AC6177BEEA6736114D78D27B2D /* Pods-GPUImageFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GPUImageFramework.modulemap"; sourceTree = "<group>"; };
-		84D872DE8FA80A19BB4B866825EC17D2 /* Pods-GPUImageFramework-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GPUImageFramework-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9152F6D4E75C8C642B1F58BFDC0F1307 /* Pods-GPUImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GPUImage-dummy.m"; sourceTree = "<group>"; };
-		97074AEC23C25C7E78086FEE92EDC30E /* mln_env.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mln_env.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/mln_env.h; sourceTree = "<group>"; };
-		98C0A11F79A19DE9EBCC7732B6A86684 /* EAGLDrawable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EAGLDrawable.h; path = MoltenGL/RedirectHeaders/include/OpenGLES/EAGLDrawable.h; sourceTree = "<group>"; };
-		9EB5A3CDC2B78F3277CF314B5A130990 /* Pods-GPUImage-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GPUImage-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A959CB019E0A4788213620B60629DAC7 /* Pods-GPUImage-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPUImage-acknowledgements.plist"; sourceTree = "<group>"; };
-		AFC8F76ADF48756F1212DD3E75A77265 /* MGLGLSLToMSLFileConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGLGLSLToMSLFileConverter.h; path = MoltenGLShaderConverter/iOS/MoltenGLShaderConverter.framework/Headers/MGLGLSLToMSLFileConverter.h; sourceTree = "<group>"; };
-		B2E90927F84CFB3C637941AADB08162A /* Pods-GPUImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GPUImage.modulemap"; sourceTree = "<group>"; };
-		BA6598F7C380EB00E7C0E487E1A95181 /* EAGL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EAGL.h; path = MoltenGL/RedirectHeaders/include/OpenGLES/EAGL.h; sourceTree = "<group>"; };
-		BC00499090869181630B0505BBDCF5E9 /* glext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = glext.h; path = MoltenGL/RedirectHeaders/include/OpenGLES/ES2/glext.h; sourceTree = "<group>"; };
-		C1C21B67AC30B50C77A5C874E91C5902 /* Pods_GPUImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GPUImage.framework; path = "Pods-GPUImage.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C402BD1BE6AE223E662F05A142EA72AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E1184B623C673139E416F88A621A50AB /* Pods-GPUImageFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GPUImageFramework-umbrella.h"; sourceTree = "<group>"; };
-		E1389B941988BC6AB950C0EC4C26CC5F /* MoltenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MoltenGL.framework; path = MoltenGL/iOS/MoltenGL.framework; sourceTree = "<group>"; };
-		E74E00427D04E7370E5CF5B619CEAB5D /* MoltenGLShaderConverter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MoltenGLShaderConverter.framework; path = MoltenGLShaderConverter/iOS/MoltenGLShaderConverter.framework; sourceTree = "<group>"; };
-		EAEE836D784366B1B9450EC3985EE699 /* CAEAGLLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CAEAGLLayer.h; path = MoltenGL/RedirectHeaders/include/QuartzCore/CAEAGLLayer.h; sourceTree = "<group>"; };
-		F8BB0061423E488EE4A7EEF783B04791 /* Pods-GPUImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPUImage.debug.xcconfig"; sourceTree = "<group>"; };
-		F9F15D4394285BD2057A78D057180118 /* Pods-GPUImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GPUImage-umbrella.h"; sourceTree = "<group>"; };
-		FB587BD2B8A1ABE5526336F4047EAB9E /* Pods-GPUImageFramework-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GPUImageFramework-resources.sh"; sourceTree = "<group>"; };
+		3E581EA00C593444A4744C57A41BA2BA /* mglDataTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mglDataTypes.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/mglDataTypes.h; sourceTree = "<group>"; };
+		3FE81CA10EDF5EF9EF378DEDEC68027E /* mglEnv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mglEnv.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/mglEnv.h; sourceTree = "<group>"; };
+		492AE66D227A30C1EEA69BA5A7D5927C /* Pods-GPUImage-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPUImage-acknowledgements.plist"; sourceTree = "<group>"; };
+		49F439FDEFDB12D176961A200359D397 /* GLKView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLKView.h; path = MoltenGL/RedirectHeaders/include/GLKit/GLKView.h; sourceTree = "<group>"; };
+		4BC17F0BE980309A78A23A21736A805D /* CAEAGLLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CAEAGLLayer.h; path = MoltenGL/RedirectHeaders/include/QuartzCore/CAEAGLLayer.h; sourceTree = "<group>"; };
+		55BE5F16C4BF17C1FC29B58746CC5465 /* glext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = glext.h; path = MoltenGL/RedirectHeaders/include/OpenGLES/ES2/glext.h; sourceTree = "<group>"; };
+		586E81FBA0B005CD83559B1E1F7C8C5B /* Pods-GPUImageFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GPUImageFramework-dummy.m"; sourceTree = "<group>"; };
+		592E6A507BF2C2A125F93A15D654B542 /* Pods-GPUImageFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GPUImageFramework.modulemap"; sourceTree = "<group>"; };
+		5E5E5B6297FC57EFDB750395CD0DC7DD /* Pods-GPUImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GPUImage.modulemap"; sourceTree = "<group>"; };
+		63B76176A8C5F4A5002520DA2BDF8793 /* MoltenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MoltenGL.framework; path = MoltenGL/iOS/MoltenGL.framework; sourceTree = "<group>"; };
+		69918137BC65C128137D143C4C2A762E /* MoltenGL.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MoltenGL.xcconfig; sourceTree = "<group>"; };
+		7AAC0B291CBF2A2B6BA5DC9CD034AF9E /* mglGLKitDataTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mglGLKitDataTypes.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/mglGLKitDataTypes.h; sourceTree = "<group>"; };
+		83B52D5FDA050D27C868627C758B38A0 /* Pods-GPUImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GPUImage-umbrella.h"; sourceTree = "<group>"; };
+		88CBDE5A1C1F5A823E98CD311A7B2542 /* MoltenGL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MoltenGL.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/MoltenGL.h; sourceTree = "<group>"; };
+		8D94CCF07C41E679EBE945465BED0430 /* Pods-GPUImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPUImage.debug.xcconfig"; sourceTree = "<group>"; };
+		93CF44F22B8BC5BDC6119E1990AE9FEC /* Pods-GPUImageFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GPUImageFramework-umbrella.h"; sourceTree = "<group>"; };
+		9542B0FA67C7D2A4259AFA265B6CB347 /* Pods-GPUImageFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPUImageFramework.release.xcconfig"; sourceTree = "<group>"; };
+		999D0D37E4B04475C3EEB6C968AE8F9E /* Pods-GPUImageFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPUImageFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		9A42B62F1FF4ABEAC6EB4523FD7BD7BF /* mln_env.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mln_env.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/mln_env.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; };
+		A26F6F18394006CA42E759121B1E2E97 /* mglext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mglext.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/mglext.h; sourceTree = "<group>"; };
+		A77772D82B68B35D4DA2A7AC20DFE202 /* Pods-GPUImageFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPUImageFramework-Info.plist"; sourceTree = "<group>"; };
+		AAD6D109B93C6F870F19FBB7D761EE28 /* MGLGLSLToMSLConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGLGLSLToMSLConverter.h; path = MoltenGLShaderConverter/iOS/MoltenGLShaderConverter.framework/Headers/MGLGLSLToMSLConverter.h; sourceTree = "<group>"; };
+		B550AE01C5867A5272714FF370AEFA96 /* Pods_GPUImageFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPUImageFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63E1CB99ABFCB89E8D8B383DD40202C /* Pods-GPUImage-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GPUImage-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA66A65BC73CBA10A487213764216DC8 /* Pods-GPUImageFramework-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPUImageFramework-acknowledgements.plist"; sourceTree = "<group>"; };
+		D6A4342C8EDE5029AB3DFD867D719B4C /* gl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gl.h; path = MoltenGL/RedirectHeaders/include/OpenGLES/ES2/gl.h; sourceTree = "<group>"; };
+		D9B640C1EFD8368FB9F3D7E52DB09F98 /* Pods-GPUImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GPUImage-dummy.m"; sourceTree = "<group>"; };
+		E164371908137B379CB4C1A6C3048ED5 /* EAGL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EAGL.h; path = MoltenGL/RedirectHeaders/include/OpenGLES/EAGL.h; sourceTree = "<group>"; };
+		E95D07DB67429B3213A55A63357B5E82 /* mglMetalState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mglMetalState.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/mglMetalState.h; sourceTree = "<group>"; };
+		EC93E6D6C8F1223DEE37A11EE08A2689 /* Pods-GPUImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPUImage.release.xcconfig"; sourceTree = "<group>"; };
+		EFA78F688037C4230B23A9359EFC28F5 /* Pods_GPUImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPUImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16A8E3A47CCF7E89F3782E37361B30B /* MoltenGLShaderConverter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MoltenGLShaderConverter.framework; path = MoltenGLShaderConverter/iOS/MoltenGLShaderConverter.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3D55A5E92CAC63C1F76A77236E6A54EE /* Frameworks */ = {
+		7E5500EF2CEE4D022F746BDB3856CDE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6F2BBE5C5A01CE69A3F6BD56807C5C3 /* Foundation.framework in Frameworks */,
+				0AE529A9A23767FED4CB523F17EF83C6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F0F81F8A8A96838A4EAD94B20C7775F /* Frameworks */ = {
+		9452C7BA72897204A2AD5AA2F29EF694 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60A46936B7A1BA4BB7B91DEF0B99A2F3 /* Foundation.framework in Frameworks */,
+				15E0C45DA0D2F7AE17B3669B951B5A40 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		29A0CD0116E8C213BCEF34471117F6B5 /* MoltenGL */ = {
+		323977E464136B819231F28A2BC97DCC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EAEE836D784366B1B9450EC3985EE699 /* CAEAGLLayer.h */,
-				BA6598F7C380EB00E7C0E487E1A95181 /* EAGL.h */,
-				98C0A11F79A19DE9EBCC7732B6A86684 /* EAGLDrawable.h */,
-				3FA83A23DCB75B97E4A45976D8AF9F3F /* gl.h */,
-				BC00499090869181630B0505BBDCF5E9 /* glext.h */,
-				7AAE92DD7BE5CF0B3B50091A0058FDDC /* GLKView.h */,
-				21CC6172E6EBE1B6FD1092A2424C2CC8 /* gltypes.h */,
-				518EFC3D66A24CA2750FE617EEB3849E /* mglDataTypes.h */,
-				442747027A93A694CD503C862FCD0ABE /* mglEnv.h */,
-				5A6C28D5B4BD937D8FC4425CE3E39D8F /* mglext.h */,
-				153AE17C41291D6EC5069EEC7EA297E6 /* mglGLKitDataTypes.h */,
-				56165625A9B92D729C089D7E0DCA6476 /* MGLGLSLToMSLConverter.h */,
-				AFC8F76ADF48756F1212DD3E75A77265 /* MGLGLSLToMSLFileConverter.h */,
-				7973DC12F0ED2E1BCA57FE2CB351B342 /* mglMetalState.h */,
-				97074AEC23C25C7E78086FEE92EDC30E /* mln_env.h */,
-				498C520D5B959B4ED984457F524E26E3 /* MoltenGL.h */,
-				67D8912E840D71AFEE06A6DC1D47BD55 /* Frameworks */,
+				8EE95A9E64673CD7108F1856A523E3BE /* MoltenGL */,
 			);
-			name = MoltenGL;
-			path = MoltenGL;
-			sourceTree = "<group>";
-		};
-		3F79533830B394C7309F5412065E45A8 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				42A8FECC89B1536EF7D96F2D9091EF17 /* Pods-GPUImage */,
-				CD4A68891A2F18935D23FA51B8355AF7 /* Pods-GPUImageFramework */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		42A8FECC89B1536EF7D96F2D9091EF17 /* Pods-GPUImage */ = {
-			isa = PBXGroup;
-			children = (
-				C402BD1BE6AE223E662F05A142EA72AA /* Info.plist */,
-				B2E90927F84CFB3C637941AADB08162A /* Pods-GPUImage.modulemap */,
-				9EB5A3CDC2B78F3277CF314B5A130990 /* Pods-GPUImage-acknowledgements.markdown */,
-				A959CB019E0A4788213620B60629DAC7 /* Pods-GPUImage-acknowledgements.plist */,
-				9152F6D4E75C8C642B1F58BFDC0F1307 /* Pods-GPUImage-dummy.m */,
-				0E1B00871EE91C22A7B1B7C7E106BF90 /* Pods-GPUImage-frameworks.sh */,
-				63086EBABDAF2E342ECEEE67A6DECCF9 /* Pods-GPUImage-resources.sh */,
-				F9F15D4394285BD2057A78D057180118 /* Pods-GPUImage-umbrella.h */,
-				F8BB0061423E488EE4A7EEF783B04791 /* Pods-GPUImage.debug.xcconfig */,
-				6C29B2EF8A46B6C7DCC9373CD4A6AD95 /* Pods-GPUImage.release.xcconfig */,
-			);
-			name = "Pods-GPUImage";
-			path = "Target Support Files/Pods-GPUImage";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		5F800484EBD3B7807693D6B09CE7237B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C1C21B67AC30B50C77A5C874E91C5902 /* Pods_GPUImage.framework */,
-				5842D6746A4967F3F061E2036174BAE3 /* Pods_GPUImageFramework.framework */,
+				EFA78F688037C4230B23A9359EFC28F5 /* Pods_GPUImage.framework */,
+				B550AE01C5867A5272714FF370AEFA96 /* Pods_GPUImageFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		67D8912E840D71AFEE06A6DC1D47BD55 /* Frameworks */ = {
+		8DB7CA7124224C8374200A713F226298 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E1389B941988BC6AB950C0EC4C26CC5F /* MoltenGL.framework */,
-				E74E00427D04E7370E5CF5B619CEAB5D /* MoltenGLShaderConverter.framework */,
+				63B76176A8C5F4A5002520DA2BDF8793 /* MoltenGL.framework */,
+				F16A8E3A47CCF7E89F3782E37361B30B /* MoltenGLShaderConverter.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EE95A9E64673CD7108F1856A523E3BE /* MoltenGL */ = {
+			isa = PBXGroup;
+			children = (
+				4BC17F0BE980309A78A23A21736A805D /* CAEAGLLayer.h */,
+				E164371908137B379CB4C1A6C3048ED5 /* EAGL.h */,
+				014D3B8620150185835D9E300F4E1849 /* EAGLDrawable.h */,
+				D6A4342C8EDE5029AB3DFD867D719B4C /* gl.h */,
+				55BE5F16C4BF17C1FC29B58746CC5465 /* glext.h */,
+				49F439FDEFDB12D176961A200359D397 /* GLKView.h */,
+				2089BEF33DD0507CD832871874B891B1 /* gltypes.h */,
+				3E581EA00C593444A4744C57A41BA2BA /* mglDataTypes.h */,
+				3FE81CA10EDF5EF9EF378DEDEC68027E /* mglEnv.h */,
+				A26F6F18394006CA42E759121B1E2E97 /* mglext.h */,
+				7AAC0B291CBF2A2B6BA5DC9CD034AF9E /* mglGLKitDataTypes.h */,
+				AAD6D109B93C6F870F19FBB7D761EE28 /* MGLGLSLToMSLConverter.h */,
+				25D9CCC0F5D191E599B9FB8EB535F895 /* MGLGLSLToMSLFileConverter.h */,
+				E95D07DB67429B3213A55A63357B5E82 /* mglMetalState.h */,
+				9A42B62F1FF4ABEAC6EB4523FD7BD7BF /* mln_env.h */,
+				88CBDE5A1C1F5A823E98CD311A7B2542 /* MoltenGL.h */,
+				8DB7CA7124224C8374200A713F226298 /* Frameworks */,
+				F2DE828A387DD7AE61E3AFD7267427D2 /* Support Files */,
+			);
+			path = MoltenGL;
+			sourceTree = "<group>";
+		};
+		A7F55F07683A01064A886A212542BBC6 /* Pods-GPUImageFramework */ = {
+			isa = PBXGroup;
+			children = (
+				592E6A507BF2C2A125F93A15D654B542 /* Pods-GPUImageFramework.modulemap */,
+				22608CA5B953B8CBC7C22BFE387BB56F /* Pods-GPUImageFramework-acknowledgements.markdown */,
+				BA66A65BC73CBA10A487213764216DC8 /* Pods-GPUImageFramework-acknowledgements.plist */,
+				586E81FBA0B005CD83559B1E1F7C8C5B /* Pods-GPUImageFramework-dummy.m */,
+				A77772D82B68B35D4DA2A7AC20DFE202 /* Pods-GPUImageFramework-Info.plist */,
+				93CF44F22B8BC5BDC6119E1990AE9FEC /* Pods-GPUImageFramework-umbrella.h */,
+				999D0D37E4B04475C3EEB6C968AE8F9E /* Pods-GPUImageFramework.debug.xcconfig */,
+				9542B0FA67C7D2A4259AFA265B6CB347 /* Pods-GPUImageFramework.release.xcconfig */,
+			);
+			name = "Pods-GPUImageFramework";
+			path = "Target Support Files/Pods-GPUImageFramework";
+			sourceTree = "<group>";
+		};
+		BDBC0E9DA69BE80F271556C904F8A950 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8DAE57066BE7D4D2D97C457BB094501 /* Pods-GPUImage */,
+				A7F55F07683A01064A886A212542BBC6 /* Pods-GPUImageFramework */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -157,31 +191,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		CD4A68891A2F18935D23FA51B8355AF7 /* Pods-GPUImageFramework */ = {
-			isa = PBXGroup;
-			children = (
-				06805A90D92DFD6459B8C705697383BA /* Info.plist */,
-				806656AC6177BEEA6736114D78D27B2D /* Pods-GPUImageFramework.modulemap */,
-				84D872DE8FA80A19BB4B866825EC17D2 /* Pods-GPUImageFramework-acknowledgements.markdown */,
-				5338A82F60DD3864EF579B44C3DC7E45 /* Pods-GPUImageFramework-acknowledgements.plist */,
-				084C06AA06EFBF20D09FC7930F258FF0 /* Pods-GPUImageFramework-dummy.m */,
-				FB587BD2B8A1ABE5526336F4047EAB9E /* Pods-GPUImageFramework-resources.sh */,
-				E1184B623C673139E416F88A621A50AB /* Pods-GPUImageFramework-umbrella.h */,
-				019ECDA9B9AC9CDEE6681E3558D66070 /* Pods-GPUImageFramework.debug.xcconfig */,
-				084E9AE9F9219C62DBB903748A629D66 /* Pods-GPUImageFramework.release.xcconfig */,
-			);
-			name = "Pods-GPUImageFramework";
-			path = "Target Support Files/Pods-GPUImageFramework";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				FAEC641B39CED24EF4B261734F7E5010 /* Pods */,
+				323977E464136B819231F28A2BC97DCC /* Pods */,
 				5F800484EBD3B7807693D6B09CE7237B /* Products */,
-				3F79533830B394C7309F5412065E45A8 /* Targets Support Files */,
+				BDBC0E9DA69BE80F271556C904F8A950 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -193,70 +210,89 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FAEC641B39CED24EF4B261734F7E5010 /* Pods */ = {
+		D8DAE57066BE7D4D2D97C457BB094501 /* Pods-GPUImage */ = {
 			isa = PBXGroup;
 			children = (
-				29A0CD0116E8C213BCEF34471117F6B5 /* MoltenGL */,
+				5E5E5B6297FC57EFDB750395CD0DC7DD /* Pods-GPUImage.modulemap */,
+				B63E1CB99ABFCB89E8D8B383DD40202C /* Pods-GPUImage-acknowledgements.markdown */,
+				492AE66D227A30C1EEA69BA5A7D5927C /* Pods-GPUImage-acknowledgements.plist */,
+				D9B640C1EFD8368FB9F3D7E52DB09F98 /* Pods-GPUImage-dummy.m */,
+				118CD75FF719466E428FCC9C53E976B4 /* Pods-GPUImage-Info.plist */,
+				83B52D5FDA050D27C868627C758B38A0 /* Pods-GPUImage-umbrella.h */,
+				8D94CCF07C41E679EBE945465BED0430 /* Pods-GPUImage.debug.xcconfig */,
+				EC93E6D6C8F1223DEE37A11EE08A2689 /* Pods-GPUImage.release.xcconfig */,
 			);
-			name = Pods;
+			name = "Pods-GPUImage";
+			path = "Target Support Files/Pods-GPUImage";
+			sourceTree = "<group>";
+		};
+		F2DE828A387DD7AE61E3AFD7267427D2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				69918137BC65C128137D143C4C2A762E /* MoltenGL.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MoltenGL";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		370EF51A2FA738F46D908FFB7ED1A441 /* Headers */ = {
+		25ACB23922F465402F5A4EF9BE59808C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32B2ADFE90A7EB7E00F32454E5DF8D6E /* Pods-GPUImage-umbrella.h in Headers */,
+				323108E48CEE62415297F28B31F59794 /* Pods-GPUImageFramework-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F56BC31792B2C0F5D4C45C0B1E37264C /* Headers */ = {
+		613C384CE2E314E4ADEF5F8E226747E8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7F81C1739833A6E6DCBC945E147BBF8 /* Pods-GPUImageFramework-umbrella.h in Headers */,
+				8EDE4B8EB7446F40AB249012988C729A /* Pods-GPUImage-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5A207FCD6185E2826A3C203C8B4F9272 /* Pods-GPUImageFramework */ = {
+		00C7C80B64287D56EE797D4C081C20C3 /* Pods-GPUImageFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6C24DF607B263BE19098BB51D26F857 /* Build configuration list for PBXNativeTarget "Pods-GPUImageFramework" */;
+			buildConfigurationList = 0208A58621D74B896B77635CDBAE0AF3 /* Build configuration list for PBXNativeTarget "Pods-GPUImageFramework" */;
 			buildPhases = (
-				F56BC31792B2C0F5D4C45C0B1E37264C /* Headers */,
-				99D967DE57DCD92AA04FEBBA33BB6CA7 /* Sources */,
-				3D55A5E92CAC63C1F76A77236E6A54EE /* Frameworks */,
-				B48B5647BE50ACDEFDA4508CEE1DD98D /* Resources */,
+				25ACB23922F465402F5A4EF9BE59808C /* Headers */,
+				A521928853B29B50A4C523A418F82D69 /* Sources */,
+				7E5500EF2CEE4D022F746BDB3856CDE8 /* Frameworks */,
+				55DFC0420109E5467B68355B634DD2AE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1FC9B8B563F34D05289B1893D1C28817 /* PBXTargetDependency */,
 			);
 			name = "Pods-GPUImageFramework";
 			productName = "Pods-GPUImageFramework";
-			productReference = 5842D6746A4967F3F061E2036174BAE3 /* Pods_GPUImageFramework.framework */;
+			productReference = B550AE01C5867A5272714FF370AEFA96 /* Pods_GPUImageFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E6F6DC00708CDC5D573ABC69AC45FD36 /* Pods-GPUImage */ = {
+		A858385E60114DD2A992B71991324027 /* Pods-GPUImage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63C76CE7E8D34A8A4E8635B0A6CA3D5F /* Build configuration list for PBXNativeTarget "Pods-GPUImage" */;
+			buildConfigurationList = A183407B49E6C45D5A06CF515B3B5DA3 /* Build configuration list for PBXNativeTarget "Pods-GPUImage" */;
 			buildPhases = (
-				370EF51A2FA738F46D908FFB7ED1A441 /* Headers */,
-				37AB2E90459CB1F257F6E601999DD653 /* Sources */,
-				8F0F81F8A8A96838A4EAD94B20C7775F /* Frameworks */,
-				0D40EBE8534932A2D008E24E87CCCA1A /* Resources */,
+				613C384CE2E314E4ADEF5F8E226747E8 /* Headers */,
+				3D1E6AFA5FB68E3EF4B9998D50752ABC /* Sources */,
+				9452C7BA72897204A2AD5AA2F29EF694 /* Frameworks */,
+				3D445E5B221F2203CA794E1239778814 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				ED4EDD109AFED6F09165E77A8E3E1AE4 /* PBXTargetDependency */,
 			);
 			name = "Pods-GPUImage";
 			productName = "Pods-GPUImage";
-			productReference = C1C21B67AC30B50C77A5C874E91C5902 /* Pods_GPUImage.framework */;
+			productReference = EFA78F688037C4230B23A9359EFC28F5 /* Pods_GPUImage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -280,21 +316,22 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E6F6DC00708CDC5D573ABC69AC45FD36 /* Pods-GPUImage */,
-				5A207FCD6185E2826A3C203C8B4F9272 /* Pods-GPUImageFramework */,
+				10F7566BD4253963D83D12F4AD288400 /* MoltenGL */,
+				A858385E60114DD2A992B71991324027 /* Pods-GPUImage */,
+				00C7C80B64287D56EE797D4C081C20C3 /* Pods-GPUImageFramework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0D40EBE8534932A2D008E24E87CCCA1A /* Resources */ = {
+		3D445E5B221F2203CA794E1239778814 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B48B5647BE50ACDEFDA4508CEE1DD98D /* Resources */ = {
+		55DFC0420109E5467B68355B634DD2AE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -304,26 +341,136 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		37AB2E90459CB1F257F6E601999DD653 /* Sources */ = {
+		3D1E6AFA5FB68E3EF4B9998D50752ABC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BEDDAB0BCA345400572E60F61E5A3FF /* Pods-GPUImage-dummy.m in Sources */,
+				8F84669A584284BD5A83BC7596F511FE /* Pods-GPUImage-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		99D967DE57DCD92AA04FEBBA33BB6CA7 /* Sources */ = {
+		A521928853B29B50A4C523A418F82D69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48DEBB07B8730B72852FB4E1C6F916E7 /* Pods-GPUImageFramework-dummy.m in Sources */,
+				FBDC0A867020424C76544DE29D77FE8F /* Pods-GPUImageFramework-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		1FC9B8B563F34D05289B1893D1C28817 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MoltenGL;
+			target = 10F7566BD4253963D83D12F4AD288400 /* MoltenGL */;
+			targetProxy = 15AC6199CF9A383598263F3483B40D27 /* PBXContainerItemProxy */;
+		};
+		ED4EDD109AFED6F09165E77A8E3E1AE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MoltenGL;
+			target = 10F7566BD4253963D83D12F4AD288400 /* MoltenGL */;
+			targetProxy = B077228811A1D29B6E683DFB681EC893 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		134BC37FD8348964494911ED9036E69D /* Debug */ = {
+		2310918668F62DBEC4CFB7BEECC18BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC93E6D6C8F1223DEE37A11EE08A2689 /* Pods-GPUImage.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GPUImage/Pods-GPUImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GPUImage/Pods-GPUImage.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E619C1A576DC33CE047722F84081AEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69918137BC65C128137D143C4C2A762E /* MoltenGL.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		816CC0D6E4292A2361AC7712A08E5316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9542B0FA67C7D2A4259AFA265B6CB347 /* Pods-GPUImageFramework.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GPUImageFramework/Pods-GPUImageFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GPUImageFramework/Pods-GPUImageFramework.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		82BA463335FD37764443EEA3F8D32BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69918137BC65C128137D143C4C2A762E /* MoltenGL.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -355,7 +502,65 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -380,7 +585,6 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -389,10 +593,11 @@
 			};
 			name = Debug;
 		};
-		82C233ACC7E2852EC92BE6800E8015D9 /* Debug */ = {
+		A5504CF669990E4651EEBADC3FBF38C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8BB0061423E488EE4A7EEF783B04791 /* Pods-GPUImage.debug.xcconfig */;
+			baseConfigurationReference = 999D0D37E4B04475C3EEB6C968AE8F9E /* Pods-GPUImageFramework.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -402,39 +607,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GPUImage/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GPUImage/Pods-GPUImage.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GPUImage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B207BA3DAD969A2011F450866B6E4AAC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 019ECDA9B9AC9CDEE6681E3558D66070 /* Pods-GPUImageFramework.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GPUImageFramework/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-GPUImageFramework/Pods-GPUImageFramework-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -444,7 +617,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GPUImageFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -453,72 +626,11 @@
 			};
 			name = Debug;
 		};
-		D02FDD7B72A14562E83DEA74F1318F9E /* Release */ = {
+		ADFB878205E4DA1B8F63BB745FB369A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D94CCF07C41E679EBE945465BED0430 /* Pods-GPUImage.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		D204F600CCFC04B40BB9D9C71A261759 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C29B2EF8A46B6C7DCC9373CD4A6AD95 /* Pods-GPUImage.release.xcconfig */;
-			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -528,7 +640,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GPUImage/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-GPUImage/Pods-GPUImage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -538,75 +650,50 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GPUImage;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
-		};
-		FDF54F60D5F3C28DA8C4A6FD1EA4F0FD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 084E9AE9F9219C62DBB903748A629D66 /* Pods-GPUImageFramework.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GPUImageFramework/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GPUImageFramework/Pods-GPUImageFramework.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GPUImageFramework;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0208A58621D74B896B77635CDBAE0AF3 /* Build configuration list for PBXNativeTarget "Pods-GPUImageFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5504CF669990E4651EEBADC3FBF38C0 /* Debug */,
+				816CC0D6E4292A2361AC7712A08E5316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				134BC37FD8348964494911ED9036E69D /* Debug */,
-				D02FDD7B72A14562E83DEA74F1318F9E /* Release */,
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63C76CE7E8D34A8A4E8635B0A6CA3D5F /* Build configuration list for PBXNativeTarget "Pods-GPUImage" */ = {
+		A183407B49E6C45D5A06CF515B3B5DA3 /* Build configuration list for PBXNativeTarget "Pods-GPUImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				82C233ACC7E2852EC92BE6800E8015D9 /* Debug */,
-				D204F600CCFC04B40BB9D9C71A261759 /* Release */,
+				ADFB878205E4DA1B8F63BB745FB369A2 /* Debug */,
+				2310918668F62DBEC4CFB7BEECC18BA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6C24DF607B263BE19098BB51D26F857 /* Build configuration list for PBXNativeTarget "Pods-GPUImageFramework" */ = {
+		F0F3B5D0065DC92669202A9860DE4C1A /* Build configuration list for PBXAggregateTarget "MoltenGL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B207BA3DAD969A2011F450866B6E4AAC /* Debug */,
-				FDF54F60D5F3C28DA8C4A6FD1EA4F0FD /* Release */,
+				5E619C1A576DC33CE047722F84081AEE /* Debug */,
+				82BA463335FD37764443EEA3F8D32BFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
