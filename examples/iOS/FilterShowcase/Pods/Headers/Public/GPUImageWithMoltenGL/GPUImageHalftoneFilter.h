@@ -1,0 +1,1 @@
+../../../GPUImageWithMoltenGL/framework/Source/GPUImageHalftoneFilter.h

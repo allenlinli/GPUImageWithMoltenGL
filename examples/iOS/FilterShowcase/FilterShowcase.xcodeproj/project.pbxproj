@@ -59,13 +59,6 @@
 			remoteGlobalIDString = BCF1A33414DDB1EC00852800;
 			remoteInfo = GPUImage;
 		};
-		BCF866CD1725A19100912E34 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC982B2714F049950001FF6F /* GPUImage.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = BCF1A33314DDB1EC00852800;
-			remoteInfo = GPUImage;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -245,11 +238,12 @@
 				BC982AFE14F046AC0001FF6F /* Sources */,
 				BC982AFF14F046AC0001FF6F /* Frameworks */,
 				BC982B0014F046AC0001FF6F /* Resources */,
+				BF3B252C1FDD8869FCA2DB88 /* [CP] Embed Pods Frameworks */,
+				B684C41D2B8ECB4405F61082 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BCF866CE1725A19100912E34 /* PBXTargetDependency */,
 			);
 			name = FilterShowcase;
 			productName = FilterShowcase;
@@ -364,6 +358,50 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B684C41D2B8ECB4405F61082 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FilterShowcase/Pods-FilterShowcase-resources.sh",
+				"${PODS_ROOT}/GPUImageWithMoltenGL/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImageWithMoltenGL/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImageWithMoltenGL/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImageWithMoltenGL/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImageWithMoltenGL/framework/Resources/lookup_soft_elegance_2.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FilterShowcase/Pods-FilterShowcase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF3B252C1FDD8869FCA2DB88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FilterShowcase/Pods-FilterShowcase-frameworks.sh",
+				"${PODS_ROOT}/GPUImageWithMoltenGL/GPUImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GPUImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FilterShowcase/Pods-FilterShowcase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -379,14 +417,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BCF866CE1725A19100912E34 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GPUImage;
-			targetProxy = BCF866CD1725A19100912E34 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BC982B0F14F046AC0001FF6F /* InfoPlist.strings */ = {
