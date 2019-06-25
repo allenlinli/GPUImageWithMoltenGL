@@ -6,122 +6,150 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		10F7566BD4253963D83D12F4AD288400 /* MoltenGL */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F0F3B5D0065DC92669202A9860DE4C1A /* Build configuration list for PBXAggregateTarget "MoltenGL" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = MoltenGL;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		8E0FB012DC59045B34D75B382F3457EA /* Pods-FilterShowcase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79233EE580A4AA9D68A253707B150833 /* Pods-FilterShowcase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0D6D970BF2CFABBCED9605454BEF6C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		CF56F3FDD5B40EDBBB69EA3C5D3A9EC2 /* Pods-FilterShowcase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B57649E2C80F75D60BAD4BBF232EB13 /* Pods-FilterShowcase-dummy.m */; };
+		1603B23D17F2A6014B4630ADD9605E1B /* Pods-FilterShowcase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7945D0E1D230966A00FB3FC07655D26 /* Pods-FilterShowcase-dummy.m */; };
+		1B9F76700B2C71D8D5B67BEF69883826 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8868746DEBB835BFEBE6D7F9404164A2 /* Pods-FilterShowcase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB968A3756F7B5DBF7D76171B76E0BAF /* Pods-FilterShowcase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		61C83D993236D6ED7A1927F42FA4859C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10F7566BD4253963D83D12F4AD288400;
+			remoteInfo = MoltenGL;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		06A37218836839C27B78069FADF06D4C /* Pods-FilterShowcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FilterShowcase.debug.xcconfig"; sourceTree = "<group>"; };
-		153AE17C41291D6EC5069EEC7EA297E6 /* mglGLKitDataTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mglGLKitDataTypes.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/mglGLKitDataTypes.h; sourceTree = "<group>"; };
-		21CC6172E6EBE1B6FD1092A2424C2CC8 /* gltypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gltypes.h; path = MoltenGL/RedirectHeaders/include/OpenGLES/gltypes.h; sourceTree = "<group>"; };
-		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		014D3B8620150185835D9E300F4E1849 /* EAGLDrawable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EAGLDrawable.h; path = MoltenGL/RedirectHeaders/include/OpenGLES/EAGLDrawable.h; sourceTree = "<group>"; };
+		2089BEF33DD0507CD832871874B891B1 /* gltypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gltypes.h; path = MoltenGL/RedirectHeaders/include/OpenGLES/gltypes.h; sourceTree = "<group>"; };
+		25D9CCC0F5D191E599B9FB8EB535F895 /* MGLGLSLToMSLFileConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGLGLSLToMSLFileConverter.h; path = MoltenGLShaderConverter/iOS/MoltenGLShaderConverter.framework/Headers/MGLGLSLToMSLFileConverter.h; sourceTree = "<group>"; };
+		2A223D2238F28E18CC3C3129204378B7 /* Pods-FilterShowcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FilterShowcase.debug.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3FA83A23DCB75B97E4A45976D8AF9F3F /* gl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gl.h; path = MoltenGL/RedirectHeaders/include/OpenGLES/ES2/gl.h; sourceTree = "<group>"; };
-		442747027A93A694CD503C862FCD0ABE /* mglEnv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mglEnv.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/mglEnv.h; sourceTree = "<group>"; };
-		498C520D5B959B4ED984457F524E26E3 /* MoltenGL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MoltenGL.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/MoltenGL.h; sourceTree = "<group>"; };
-		4C626B7050DA1D0F9EA8A2638212399F /* Pods-FilterShowcase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FilterShowcase.modulemap"; sourceTree = "<group>"; };
-		518EFC3D66A24CA2750FE617EEB3849E /* mglDataTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mglDataTypes.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/mglDataTypes.h; sourceTree = "<group>"; };
-		5569161F286A324B9885794C10387785 /* Pods-FilterShowcase-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FilterShowcase-resources.sh"; sourceTree = "<group>"; };
-		56165625A9B92D729C089D7E0DCA6476 /* MGLGLSLToMSLConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGLGLSLToMSLConverter.h; path = MoltenGLShaderConverter/iOS/MoltenGLShaderConverter.framework/Headers/MGLGLSLToMSLConverter.h; sourceTree = "<group>"; };
-		5A6C28D5B4BD937D8FC4425CE3E39D8F /* mglext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mglext.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/mglext.h; sourceTree = "<group>"; };
-		6798E4FD97A6218A0F40C9E397365DE0 /* Pods-FilterShowcase-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FilterShowcase-frameworks.sh"; sourceTree = "<group>"; };
-		79233EE580A4AA9D68A253707B150833 /* Pods-FilterShowcase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FilterShowcase-umbrella.h"; sourceTree = "<group>"; };
-		7973DC12F0ED2E1BCA57FE2CB351B342 /* mglMetalState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mglMetalState.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/mglMetalState.h; sourceTree = "<group>"; };
-		7AAE92DD7BE5CF0B3B50091A0058FDDC /* GLKView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLKView.h; path = MoltenGL/RedirectHeaders/include/GLKit/GLKView.h; sourceTree = "<group>"; };
-		97074AEC23C25C7E78086FEE92EDC30E /* mln_env.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mln_env.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/mln_env.h; sourceTree = "<group>"; };
-		98C0A11F79A19DE9EBCC7732B6A86684 /* EAGLDrawable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EAGLDrawable.h; path = MoltenGL/RedirectHeaders/include/OpenGLES/EAGLDrawable.h; sourceTree = "<group>"; };
-		9B57649E2C80F75D60BAD4BBF232EB13 /* Pods-FilterShowcase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FilterShowcase-dummy.m"; sourceTree = "<group>"; };
-		9B7C4D17DCF4002B0D615A4C748A17E0 /* Pods-FilterShowcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FilterShowcase.release.xcconfig"; sourceTree = "<group>"; };
-		A07958D910060BADC6FD59756F7AEE83 /* Pods-FilterShowcase-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FilterShowcase-acknowledgements.plist"; sourceTree = "<group>"; };
-		A66CCA3884182854A782465C59C59BB1 /* Pods-FilterShowcase-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FilterShowcase-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AFC8F76ADF48756F1212DD3E75A77265 /* MGLGLSLToMSLFileConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGLGLSLToMSLFileConverter.h; path = MoltenGLShaderConverter/iOS/MoltenGLShaderConverter.framework/Headers/MGLGLSLToMSLFileConverter.h; sourceTree = "<group>"; };
-		BA6598F7C380EB00E7C0E487E1A95181 /* EAGL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EAGL.h; path = MoltenGL/RedirectHeaders/include/OpenGLES/EAGL.h; sourceTree = "<group>"; };
-		BC00499090869181630B0505BBDCF5E9 /* glext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = glext.h; path = MoltenGL/RedirectHeaders/include/OpenGLES/ES2/glext.h; sourceTree = "<group>"; };
-		DEC6BDF6900D0DE5EAF816C21E2E5DAC /* Pods_FilterShowcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FilterShowcase.framework; path = "Pods-FilterShowcase.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1389B941988BC6AB950C0EC4C26CC5F /* MoltenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MoltenGL.framework; path = MoltenGL/iOS/MoltenGL.framework; sourceTree = "<group>"; };
-		E74E00427D04E7370E5CF5B619CEAB5D /* MoltenGLShaderConverter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MoltenGLShaderConverter.framework; path = MoltenGLShaderConverter/iOS/MoltenGLShaderConverter.framework; sourceTree = "<group>"; };
-		EAEE836D784366B1B9450EC3985EE699 /* CAEAGLLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CAEAGLLayer.h; path = MoltenGL/RedirectHeaders/include/QuartzCore/CAEAGLLayer.h; sourceTree = "<group>"; };
-		F480CD30A019BB9DF490CC7F94531577 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33AD16D5C3978BA71C032BA6BD092890 /* Pods-FilterShowcase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FilterShowcase.modulemap"; sourceTree = "<group>"; };
+		3E581EA00C593444A4744C57A41BA2BA /* mglDataTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mglDataTypes.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/mglDataTypes.h; sourceTree = "<group>"; };
+		3FE81CA10EDF5EF9EF378DEDEC68027E /* mglEnv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mglEnv.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/mglEnv.h; sourceTree = "<group>"; };
+		49F439FDEFDB12D176961A200359D397 /* GLKView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLKView.h; path = MoltenGL/RedirectHeaders/include/GLKit/GLKView.h; sourceTree = "<group>"; };
+		4BC17F0BE980309A78A23A21736A805D /* CAEAGLLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CAEAGLLayer.h; path = MoltenGL/RedirectHeaders/include/QuartzCore/CAEAGLLayer.h; sourceTree = "<group>"; };
+		55BE5F16C4BF17C1FC29B58746CC5465 /* glext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = glext.h; path = MoltenGL/RedirectHeaders/include/OpenGLES/ES2/glext.h; sourceTree = "<group>"; };
+		63B76176A8C5F4A5002520DA2BDF8793 /* MoltenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MoltenGL.framework; path = MoltenGL/iOS/MoltenGL.framework; sourceTree = "<group>"; };
+		69918137BC65C128137D143C4C2A762E /* MoltenGL.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MoltenGL.xcconfig; sourceTree = "<group>"; };
+		78001E683A9E3165FFC51DD0DDCAEA3F /* Pods-FilterShowcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FilterShowcase.release.xcconfig"; sourceTree = "<group>"; };
+		7AAC0B291CBF2A2B6BA5DC9CD034AF9E /* mglGLKitDataTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mglGLKitDataTypes.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/mglGLKitDataTypes.h; sourceTree = "<group>"; };
+		86DEB21450019CB63AAB32AD7445268B /* Pods-FilterShowcase-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FilterShowcase-acknowledgements.plist"; sourceTree = "<group>"; };
+		88CBDE5A1C1F5A823E98CD311A7B2542 /* MoltenGL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MoltenGL.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/MoltenGL.h; sourceTree = "<group>"; };
+		9A42B62F1FF4ABEAC6EB4523FD7BD7BF /* mln_env.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mln_env.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/mln_env.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A26F6F18394006CA42E759121B1E2E97 /* mglext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mglext.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/mglext.h; sourceTree = "<group>"; };
+		AAD6D109B93C6F870F19FBB7D761EE28 /* MGLGLSLToMSLConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGLGLSLToMSLConverter.h; path = MoltenGLShaderConverter/iOS/MoltenGLShaderConverter.framework/Headers/MGLGLSLToMSLConverter.h; sourceTree = "<group>"; };
+		ABB289A2262B3A331274F20B6F9A32F0 /* Pods-FilterShowcase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FilterShowcase-Info.plist"; sourceTree = "<group>"; };
+		BB968A3756F7B5DBF7D76171B76E0BAF /* Pods-FilterShowcase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FilterShowcase-umbrella.h"; sourceTree = "<group>"; };
+		BD31FC22ADECC9246FBDDA7B3D717648 /* Pods-FilterShowcase-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FilterShowcase-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D6A4342C8EDE5029AB3DFD867D719B4C /* gl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gl.h; path = MoltenGL/RedirectHeaders/include/OpenGLES/ES2/gl.h; sourceTree = "<group>"; };
+		E164371908137B379CB4C1A6C3048ED5 /* EAGL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EAGL.h; path = MoltenGL/RedirectHeaders/include/OpenGLES/EAGL.h; sourceTree = "<group>"; };
+		E7945D0E1D230966A00FB3FC07655D26 /* Pods-FilterShowcase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FilterShowcase-dummy.m"; sourceTree = "<group>"; };
+		E95D07DB67429B3213A55A63357B5E82 /* mglMetalState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mglMetalState.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/mglMetalState.h; sourceTree = "<group>"; };
+		F16A8E3A47CCF7E89F3782E37361B30B /* MoltenGLShaderConverter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MoltenGLShaderConverter.framework; path = MoltenGLShaderConverter/iOS/MoltenGLShaderConverter.framework; sourceTree = "<group>"; };
+		FD156A1EF9D1DBCF791B0401E71A5ADD /* Pods_FilterShowcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FilterShowcase.framework; path = "Pods-FilterShowcase.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		77A054B5B9AF713450B80D6E456ADD89 /* Frameworks */ = {
+		FB004A7EF3F33D10F509704E1EAC510C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0D6D970BF2CFABBCED9605454BEF6C6 /* Foundation.framework in Frameworks */,
+				1B9F76700B2C71D8D5B67BEF69883826 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		274170B2A9C9959916DD1A2C62F7ED65 /* Pods-FilterShowcase */ = {
+		323977E464136B819231F28A2BC97DCC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F480CD30A019BB9DF490CC7F94531577 /* Info.plist */,
-				4C626B7050DA1D0F9EA8A2638212399F /* Pods-FilterShowcase.modulemap */,
-				A66CCA3884182854A782465C59C59BB1 /* Pods-FilterShowcase-acknowledgements.markdown */,
-				A07958D910060BADC6FD59756F7AEE83 /* Pods-FilterShowcase-acknowledgements.plist */,
-				9B57649E2C80F75D60BAD4BBF232EB13 /* Pods-FilterShowcase-dummy.m */,
-				6798E4FD97A6218A0F40C9E397365DE0 /* Pods-FilterShowcase-frameworks.sh */,
-				5569161F286A324B9885794C10387785 /* Pods-FilterShowcase-resources.sh */,
-				79233EE580A4AA9D68A253707B150833 /* Pods-FilterShowcase-umbrella.h */,
-				06A37218836839C27B78069FADF06D4C /* Pods-FilterShowcase.debug.xcconfig */,
-				9B7C4D17DCF4002B0D615A4C748A17E0 /* Pods-FilterShowcase.release.xcconfig */,
+				8EE95A9E64673CD7108F1856A523E3BE /* MoltenGL */,
 			);
-			name = "Pods-FilterShowcase";
-			path = "Target Support Files/Pods-FilterShowcase";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		29A0CD0116E8C213BCEF34471117F6B5 /* MoltenGL */ = {
+		36740BCDC9369AA8C0844E445CFE5B34 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EAEE836D784366B1B9450EC3985EE699 /* CAEAGLLayer.h */,
-				BA6598F7C380EB00E7C0E487E1A95181 /* EAGL.h */,
-				98C0A11F79A19DE9EBCC7732B6A86684 /* EAGLDrawable.h */,
-				3FA83A23DCB75B97E4A45976D8AF9F3F /* gl.h */,
-				BC00499090869181630B0505BBDCF5E9 /* glext.h */,
-				7AAE92DD7BE5CF0B3B50091A0058FDDC /* GLKView.h */,
-				21CC6172E6EBE1B6FD1092A2424C2CC8 /* gltypes.h */,
-				518EFC3D66A24CA2750FE617EEB3849E /* mglDataTypes.h */,
-				442747027A93A694CD503C862FCD0ABE /* mglEnv.h */,
-				5A6C28D5B4BD937D8FC4425CE3E39D8F /* mglext.h */,
-				153AE17C41291D6EC5069EEC7EA297E6 /* mglGLKitDataTypes.h */,
-				56165625A9B92D729C089D7E0DCA6476 /* MGLGLSLToMSLConverter.h */,
-				AFC8F76ADF48756F1212DD3E75A77265 /* MGLGLSLToMSLFileConverter.h */,
-				7973DC12F0ED2E1BCA57FE2CB351B342 /* mglMetalState.h */,
-				97074AEC23C25C7E78086FEE92EDC30E /* mln_env.h */,
-				498C520D5B959B4ED984457F524E26E3 /* MoltenGL.h */,
-				67D8912E840D71AFEE06A6DC1D47BD55 /* Frameworks */,
+				96222D8DC9827BE639BE38B4B199A514 /* Pods-FilterShowcase */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8DB7CA7124224C8374200A713F226298 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63B76176A8C5F4A5002520DA2BDF8793 /* MoltenGL.framework */,
+				F16A8E3A47CCF7E89F3782E37361B30B /* MoltenGLShaderConverter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EE95A9E64673CD7108F1856A523E3BE /* MoltenGL */ = {
+			isa = PBXGroup;
+			children = (
+				4BC17F0BE980309A78A23A21736A805D /* CAEAGLLayer.h */,
+				E164371908137B379CB4C1A6C3048ED5 /* EAGL.h */,
+				014D3B8620150185835D9E300F4E1849 /* EAGLDrawable.h */,
+				D6A4342C8EDE5029AB3DFD867D719B4C /* gl.h */,
+				55BE5F16C4BF17C1FC29B58746CC5465 /* glext.h */,
+				49F439FDEFDB12D176961A200359D397 /* GLKView.h */,
+				2089BEF33DD0507CD832871874B891B1 /* gltypes.h */,
+				3E581EA00C593444A4744C57A41BA2BA /* mglDataTypes.h */,
+				3FE81CA10EDF5EF9EF378DEDEC68027E /* mglEnv.h */,
+				A26F6F18394006CA42E759121B1E2E97 /* mglext.h */,
+				7AAC0B291CBF2A2B6BA5DC9CD034AF9E /* mglGLKitDataTypes.h */,
+				AAD6D109B93C6F870F19FBB7D761EE28 /* MGLGLSLToMSLConverter.h */,
+				25D9CCC0F5D191E599B9FB8EB535F895 /* MGLGLSLToMSLFileConverter.h */,
+				E95D07DB67429B3213A55A63357B5E82 /* mglMetalState.h */,
+				9A42B62F1FF4ABEAC6EB4523FD7BD7BF /* mln_env.h */,
+				88CBDE5A1C1F5A823E98CD311A7B2542 /* MoltenGL.h */,
+				8DB7CA7124224C8374200A713F226298 /* Frameworks */,
+				F2DE828A387DD7AE61E3AFD7267427D2 /* Support Files */,
 			);
 			name = MoltenGL;
 			path = MoltenGL;
 			sourceTree = "<group>";
 		};
-		49FBAE293F86FD031FCA2AF545E2125D /* Targets Support Files */ = {
+		96222D8DC9827BE639BE38B4B199A514 /* Pods-FilterShowcase */ = {
 			isa = PBXGroup;
 			children = (
-				274170B2A9C9959916DD1A2C62F7ED65 /* Pods-FilterShowcase */,
+				33AD16D5C3978BA71C032BA6BD092890 /* Pods-FilterShowcase.modulemap */,
+				BD31FC22ADECC9246FBDDA7B3D717648 /* Pods-FilterShowcase-acknowledgements.markdown */,
+				86DEB21450019CB63AAB32AD7445268B /* Pods-FilterShowcase-acknowledgements.plist */,
+				E7945D0E1D230966A00FB3FC07655D26 /* Pods-FilterShowcase-dummy.m */,
+				ABB289A2262B3A331274F20B6F9A32F0 /* Pods-FilterShowcase-Info.plist */,
+				BB968A3756F7B5DBF7D76171B76E0BAF /* Pods-FilterShowcase-umbrella.h */,
+				2A223D2238F28E18CC3C3129204378B7 /* Pods-FilterShowcase.debug.xcconfig */,
+				78001E683A9E3165FFC51DD0DDCAEA3F /* Pods-FilterShowcase.release.xcconfig */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		67D8912E840D71AFEE06A6DC1D47BD55 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E1389B941988BC6AB950C0EC4C26CC5F /* MoltenGL.framework */,
-				E74E00427D04E7370E5CF5B619CEAB5D /* MoltenGLShaderConverter.framework */,
-			);
-			name = Frameworks;
+			name = "Pods-FilterShowcase";
+			path = "Target Support Files/Pods-FilterShowcase";
 			sourceTree = "<group>";
 		};
 		ABDF535713676D5B7BDCB0B2C9EFD9D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DEC6BDF6900D0DE5EAF816C21E2E5DAC /* Pods_FilterShowcase.framework */,
+				FD156A1EF9D1DBCF791B0401E71A5ADD /* Pods_FilterShowcase.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,11 +165,11 @@
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				FAEC641B39CED24EF4B261734F7E5010 /* Pods */,
+				323977E464136B819231F28A2BC97DCC /* Pods */,
 				ABDF535713676D5B7BDCB0B2C9EFD9D9 /* Products */,
-				49FBAE293F86FD031FCA2AF545E2125D /* Targets Support Files */,
+				36740BCDC9369AA8C0844E445CFE5B34 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,44 +181,46 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FAEC641B39CED24EF4B261734F7E5010 /* Pods */ = {
+		F2DE828A387DD7AE61E3AFD7267427D2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				29A0CD0116E8C213BCEF34471117F6B5 /* MoltenGL */,
+				69918137BC65C128137D143C4C2A762E /* MoltenGL.xcconfig */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/MoltenGL";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		D485ED5834E00E97AE1B71154F60D9D0 /* Headers */ = {
+		1DD1048E1F95B0EF58A51FED9DADDE07 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E0FB012DC59045B34D75B382F3457EA /* Pods-FilterShowcase-umbrella.h in Headers */,
+				8868746DEBB835BFEBE6D7F9404164A2 /* Pods-FilterShowcase-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9CB6BA517B2AE7D39097EB4360A5014E /* Pods-FilterShowcase */ = {
+		6FA2EF612204B33F497FCA65CBE5717C /* Pods-FilterShowcase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A3AE1786F075D09C3FA500B525DB86B /* Build configuration list for PBXNativeTarget "Pods-FilterShowcase" */;
+			buildConfigurationList = 0D749E71690AF3A4624E5AF15F5903B4 /* Build configuration list for PBXNativeTarget "Pods-FilterShowcase" */;
 			buildPhases = (
-				D485ED5834E00E97AE1B71154F60D9D0 /* Headers */,
-				E20A104E57FB4336EBFAF8E7F9F4DACB /* Sources */,
-				77A054B5B9AF713450B80D6E456ADD89 /* Frameworks */,
-				47E892ED91F1F495270A7D8FD47CF2D1 /* Resources */,
+				1DD1048E1F95B0EF58A51FED9DADDE07 /* Headers */,
+				7A812BE471B8F67E337E7F7DE353B718 /* Sources */,
+				FB004A7EF3F33D10F509704E1EAC510C /* Frameworks */,
+				4C60001A0688147C4EFFF654F2F53A29 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E8AAC101A2EF681FB90C8756955071D7 /* PBXTargetDependency */,
 			);
 			name = "Pods-FilterShowcase";
 			productName = "Pods-FilterShowcase";
-			productReference = DEC6BDF6900D0DE5EAF816C21E2E5DAC /* Pods_FilterShowcase.framework */;
+			productReference = FD156A1EF9D1DBCF791B0401E71A5ADD /* Pods_FilterShowcase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -199,8 +229,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -214,13 +244,14 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9CB6BA517B2AE7D39097EB4360A5014E /* Pods-FilterShowcase */,
+				10F7566BD4253963D83D12F4AD288400 /* MoltenGL */,
+				6FA2EF612204B33F497FCA65CBE5717C /* Pods-FilterShowcase */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		47E892ED91F1F495270A7D8FD47CF2D1 /* Resources */ = {
+		4C60001A0688147C4EFFF654F2F53A29 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -230,18 +261,121 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E20A104E57FB4336EBFAF8E7F9F4DACB /* Sources */ = {
+		7A812BE471B8F67E337E7F7DE353B718 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF56F3FDD5B40EDBBB69EA3C5D3A9EC2 /* Pods-FilterShowcase-dummy.m in Sources */,
+				1603B23D17F2A6014B4630ADD9605E1B /* Pods-FilterShowcase-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		E8AAC101A2EF681FB90C8756955071D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MoltenGL;
+			target = 10F7566BD4253963D83D12F4AD288400 /* MoltenGL */;
+			targetProxy = 61C83D993236D6ED7A1927F42FA4859C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		134BC37FD8348964494911ED9036E69D /* Debug */ = {
+		32018AAE36AE28D603438E05B44BE2EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A223D2238F28E18CC3C3129204378B7 /* Pods-FilterShowcase.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FilterShowcase/Pods-FilterShowcase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FilterShowcase/Pods-FilterShowcase.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E619C1A576DC33CE047722F84081AEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69918137BC65C128137D143C4C2A762E /* MoltenGL.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82BA463335FD37764443EEA3F8D32BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69918137BC65C128137D143C4C2A762E /* MoltenGL.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8626DFE557123BA454A805196FE5DDFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78001E683A9E3165FFC51DD0DDCAEA3F /* Pods-FilterShowcase.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FilterShowcase/Pods-FilterShowcase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FilterShowcase/Pods-FilterShowcase.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -273,7 +407,66 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -298,7 +491,6 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -307,150 +499,32 @@
 			};
 			name = Debug;
 		};
-		54D119D1B1CDCFD6725A363EE9E444AC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06A37218836839C27B78069FADF06D4C /* Pods-FilterShowcase.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FilterShowcase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FilterShowcase/Pods-FilterShowcase.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FilterShowcase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		611E85FB88D0714A6568D85169A91064 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B7C4D17DCF4002B0D615A4C748A17E0 /* Pods-FilterShowcase.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FilterShowcase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FilterShowcase/Pods-FilterShowcase.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FilterShowcase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D02FDD7B72A14562E83DEA74F1318F9E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+		0D749E71690AF3A4624E5AF15F5903B4 /* Build configuration list for PBXNativeTarget "Pods-FilterShowcase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				134BC37FD8348964494911ED9036E69D /* Debug */,
-				D02FDD7B72A14562E83DEA74F1318F9E /* Release */,
+				32018AAE36AE28D603438E05B44BE2EE /* Debug */,
+				8626DFE557123BA454A805196FE5DDFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A3AE1786F075D09C3FA500B525DB86B /* Build configuration list for PBXNativeTarget "Pods-FilterShowcase" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54D119D1B1CDCFD6725A363EE9E444AC /* Debug */,
-				611E85FB88D0714A6568D85169A91064 /* Release */,
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0F3B5D0065DC92669202A9860DE4C1A /* Build configuration list for PBXAggregateTarget "MoltenGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E619C1A576DC33CE047722F84081AEE /* Debug */,
+				82BA463335FD37764443EEA3F8D32BFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
