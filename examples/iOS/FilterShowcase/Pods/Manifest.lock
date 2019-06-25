@@ -1,10 +1,10 @@
 PODS:
-  - GPUImageWithMoltenGL (1.0.8):
+  - GPUImageWithMoltenGL (1.0.9):
     - MoltenGL (~> 0.23.1)
   - MoltenGL (0.23.1)
 
 DEPENDENCIES:
-  - GPUImageWithMoltenGL (~> 1.0.8)
+  - GPUImageWithMoltenGL (~> 1.0.9)
   - MoltenGL (~> 0.23.1)
 
 SPEC REPOS:
@@ -13,9 +13,9 @@ SPEC REPOS:
     - MoltenGL
 
 SPEC CHECKSUMS:
-  GPUImageWithMoltenGL: 11e7084955d504ef154370339085c61be55584b9
+  GPUImageWithMoltenGL: c5c156e030699f1477eb9861d99fe8dd7715160b
   MoltenGL: 10258b81827725f5861f530bf7dc0ef8a645c226
 
-PODFILE CHECKSUM: c01b46222a86f4dbdcec7250a498056c72fa45a4
+PODFILE CHECKSUM: 6a919ad79ab2b4cb1534e773f0481137d92c5bbd
 
 COCOAPODS: 1.7.2
