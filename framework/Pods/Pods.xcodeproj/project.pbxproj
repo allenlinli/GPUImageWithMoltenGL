@@ -15,7 +15,6 @@
 			dependencies = (
 			);
 			name = MoltenGL;
-			productName = MoltenGL;
 		};
 /* End PBXAggregateTarget section */
 
@@ -71,11 +70,11 @@
 		9542B0FA67C7D2A4259AFA265B6CB347 /* Pods-GPUImageFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPUImageFramework.release.xcconfig"; sourceTree = "<group>"; };
 		999D0D37E4B04475C3EEB6C968AE8F9E /* Pods-GPUImageFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPUImageFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		9A42B62F1FF4ABEAC6EB4523FD7BD7BF /* mln_env.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mln_env.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/mln_env.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A26F6F18394006CA42E759121B1E2E97 /* mglext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mglext.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/mglext.h; sourceTree = "<group>"; };
 		A77772D82B68B35D4DA2A7AC20DFE202 /* Pods-GPUImageFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPUImageFramework-Info.plist"; sourceTree = "<group>"; };
 		AAD6D109B93C6F870F19FBB7D761EE28 /* MGLGLSLToMSLConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGLGLSLToMSLConverter.h; path = MoltenGLShaderConverter/iOS/MoltenGLShaderConverter.framework/Headers/MGLGLSLToMSLConverter.h; sourceTree = "<group>"; };
-		B550AE01C5867A5272714FF370AEFA96 /* Pods_GPUImageFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPUImageFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B550AE01C5867A5272714FF370AEFA96 /* Pods_GPUImageFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GPUImageFramework.framework; path = "Pods-GPUImageFramework.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B63E1CB99ABFCB89E8D8B383DD40202C /* Pods-GPUImage-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GPUImage-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BA66A65BC73CBA10A487213764216DC8 /* Pods-GPUImageFramework-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPUImageFramework-acknowledgements.plist"; sourceTree = "<group>"; };
 		D6A4342C8EDE5029AB3DFD867D719B4C /* gl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gl.h; path = MoltenGL/RedirectHeaders/include/OpenGLES/ES2/gl.h; sourceTree = "<group>"; };
@@ -83,7 +82,7 @@
 		E164371908137B379CB4C1A6C3048ED5 /* EAGL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EAGL.h; path = MoltenGL/RedirectHeaders/include/OpenGLES/EAGL.h; sourceTree = "<group>"; };
 		E95D07DB67429B3213A55A63357B5E82 /* mglMetalState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mglMetalState.h; path = MoltenGL/iOS/MoltenGL.framework/Headers/mglMetalState.h; sourceTree = "<group>"; };
 		EC93E6D6C8F1223DEE37A11EE08A2689 /* Pods-GPUImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPUImage.release.xcconfig"; sourceTree = "<group>"; };
-		EFA78F688037C4230B23A9359EFC28F5 /* Pods_GPUImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPUImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA78F688037C4230B23A9359EFC28F5 /* Pods_GPUImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GPUImage.framework; path = "Pods-GPUImage.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F16A8E3A47CCF7E89F3782E37361B30B /* MoltenGLShaderConverter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MoltenGLShaderConverter.framework; path = MoltenGLShaderConverter/iOS/MoltenGLShaderConverter.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,6 +154,7 @@
 				8DB7CA7124224C8374200A713F226298 /* Frameworks */,
 				F2DE828A387DD7AE61E3AFD7267427D2 /* Support Files */,
 			);
+			name = MoltenGL;
 			path = MoltenGL;
 			sourceTree = "<group>";
 		};
@@ -523,7 +523,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

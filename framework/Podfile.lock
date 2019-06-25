@@ -1,16 +1,16 @@
 PODS:
-  - MoltenGL (0.23.0)
+  - MoltenGL (0.23.1)
 
 DEPENDENCIES:
-  - MoltenGL (~> 0.23.0)
+  - MoltenGL (~> 0.23.1)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - MoltenGL
 
 SPEC CHECKSUMS:
-  MoltenGL: b857fcd101a2dda8ba704c8b75282b6140e4f9c0
+  MoltenGL: 10258b81827725f5861f530bf7dc0ef8a645c226
 
-PODFILE CHECKSUM: e7d0aa4a5d7dca09d1a49e3524d270d09e9ad6de
+PODFILE CHECKSUM: 7160821bf51a8be5432db694a81a7d5b50c26536
 
 COCOAPODS: 1.7.2
