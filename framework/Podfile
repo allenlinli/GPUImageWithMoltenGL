@@ -3,10 +3,10 @@ platform :ios, '9.0'
 
 target 'GPUImage' do
   use_frameworks!
-  pod 'MoltenGL', '~> 0.23.0'
+  pod 'MoltenGL', '~> 0.23.1'
 end
 
 target 'GPUImageFramework' do
   use_frameworks!
-  pod 'MoltenGL', '~> 0.23.0'
+  pod 'MoltenGL', '~> 0.23.1'
 end
