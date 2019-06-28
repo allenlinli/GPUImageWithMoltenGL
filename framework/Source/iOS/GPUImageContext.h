@@ -20,7 +20,7 @@ typedef NS_ENUM(NSUInteger, GPUImageRotationMode) {
 @property(readonly, nonatomic) dispatch_queue_t contextQueue;
 @property(readwrite, retain, nonatomic) GLProgram *currentShaderProgram;
 @property(readonly, retain, nonatomic) EAGLContext *context;
-@property(readonly) CVOpenGLESTextureCacheRef coreVideoTextureCache;
+@property(readonly) CVMetalTextureCacheRef coreVideoTextureCache;
 @property(readonly) GPUImageFramebufferCache *framebufferCache;
 
 + (void *)contextKey;

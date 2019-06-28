@@ -290,7 +290,7 @@ static void *openGLESContextQueueKey;
     return _context;
 }
 
-- (CVOpenGLESTextureCacheRef)coreVideoTextureCache;
+- (CVMetalTextureCacheRef)coreVideoTextureCache;
 {
     if (_coreVideoTextureCache == NULL)
     {
