@@ -6,7 +6,7 @@
     GLuint framebuffer;
 #if TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE
     CVPixelBufferRef renderTarget;
-    CVOpenGLESTextureRef renderTexture;
+    CVMetalTextureRef renderTexture;
     NSUInteger readLockCount;
 #else
 #endif
