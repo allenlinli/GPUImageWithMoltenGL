@@ -682,7 +682,7 @@ void setColorConversion709( GLfloat conversionMatrix[9] )
             }
             if (err)
             {
-                NSLog(@"Error at CVOpenGLESTextureCacheCreateTextureFromImage %d", err);
+                NSLog(@"Error at CVOpenGLESTextureCacheCreateTextureFromImage2 %d", err);
             }
             
             luminanceTexture = CVOpenGLESTextureGetName(luminanceTextureRef);
@@ -703,7 +703,7 @@ void setColorConversion709( GLfloat conversionMatrix[9] )
             }
             if (err)
             {
-                NSLog(@"Error at CVOpenGLESTextureCacheCreateTextureFromImage %d", err);
+                NSLog(@"Error at CVOpenGLESTextureCacheCreateTextureFromImage3 %d", err);
             }
             
             chrominanceTexture = CVOpenGLESTextureGetName(chrominanceTextureRef);

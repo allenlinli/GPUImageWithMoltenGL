@@ -617,7 +617,7 @@ static CVReturn renderCallback(CVDisplayLinkRef displayLink,
             }
             if (err)
             {
-                NSLog(@"Error at CVOpenGLESTextureCacheCreateTextureFromImage %d", err);
+                NSLog(@"Error at CVOpenGLESTextureCacheCreateTextureFromImage4 %d", err);
             }
 
 #if TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE
@@ -649,7 +649,7 @@ static CVReturn renderCallback(CVDisplayLinkRef displayLink,
             }
             if (err)
             {
-                NSLog(@"Error at CVOpenGLESTextureCacheCreateTextureFromImage %d", err);
+                NSLog(@"Error at CVOpenGLESTextureCacheCreateTextureFromImage5 %d", err);
             }
 
 #if TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE
