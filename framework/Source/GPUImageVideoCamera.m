@@ -654,8 +654,8 @@ void setColorConversion709( GLfloat conversionMatrix[9] )
 
     if ([GPUImageContext supportsFastTextureUpload] && captureAsYUV)
     {
-        CVOpenGLESTextureRef luminanceTextureRef = NULL;
-        CVOpenGLESTextureRef chrominanceTextureRef = NULL;
+        CVMetalTextureRef luminanceTextureRef = NULL;
+        CVMetalTextureRef chrominanceTextureRef = NULL;
 
 //        if (captureAsYUV && [GPUImageContext deviceSupportsRedTextures])
         if (CVPixelBufferGetPlaneCount(cameraFrame) > 0) // Check for YUV planar inputs to do RGB conversion

@@ -575,11 +575,11 @@ static CVReturn renderCallback(CVDisplayLinkRef displayLink,
     {
         
 #if TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE
-        CVOpenGLESTextureRef luminanceTextureRef = NULL;
-        CVOpenGLESTextureRef chrominanceTextureRef = NULL;
+        CVMetalTextureRef luminanceTextureRef = NULL;
+        CVMetalTextureRef chrominanceTextureRef = NULL;
 #else
-        CVOpenGLTextureRef luminanceTextureRef = NULL;
-        CVOpenGLTextureRef chrominanceTextureRef = NULL;
+        CVMetalTextureRef luminanceTextureRef = NULL;
+        CVMetalTextureRef chrominanceTextureRef = NULL;
 #endif
 
         //        if (captureAsYUV && [GPUImageContext deviceSupportsRedTextures])
