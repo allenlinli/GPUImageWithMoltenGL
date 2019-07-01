@@ -140,7 +140,7 @@ void dataProviderUnlockCallback (void *info, const void *data, size_t size);
         if ([GPUImageContext supportsFastTextureUpload])
         {
 #if TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE
-            CVOpenGLESTextureCacheRef coreVideoTextureCache = [[GPUImageContext sharedImageProcessingContext] coreVideoTextureCache];
+            CVMetalTextureCacheRef coreVideoTextureCache = [[GPUImageContext sharedImageProcessingContext] coreVideoTextureCache];
             // Code originally sourced from http://allmybrain.com/2011/12/08/rendering-to-a-texture-with-ios-5-texture-cache-api/
             
             CFDictionaryRef empty; // empty value for attr value.
@@ -156,16 +156,13 @@ void dataProviderUnlockCallback (void *info, const void *data, size_t size);
                 NSAssert(NO, @"Error at CVPixelBufferCreate %d", err);
             }
             
-            err = CVOpenGLESTextureCacheCreateTextureFromImage (kCFAllocatorDefault, coreVideoTextureCache, renderTarget,
-                                                                NULL, // texture attributes
-                                                                GL_TEXTURE_2D,
-                                                                _textureOptions.internalFormat, // opengl format
-                                                                (int)_size.width,
-                                                                (int)_size.height,
-                                                                _textureOptions.format, // native iOS format
-                                                                _textureOptions.type,
-                                                                0,
-                                                                &renderTexture);
+            err = CVMetalTextureCacheCreateTextureFromImage (kCFAllocatorDefault, coreVideoTextureCache, renderTarget,
+                                                             NULL, // texture attributes
+                                                             _textureOptions.internalFormat, // opengl format
+                                                             (int)_size.width,
+                                                             (int)_size.height,
+                                                             0,
+                                                             &renderTexture);
             if (err)
             {
                 NSAssert(NO, @"Error at CVOpenGLESTextureCacheCreateTextureFromImage %d", err);

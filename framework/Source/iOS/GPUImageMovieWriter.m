@@ -584,14 +584,11 @@ NSString *const kGPUImageColorSwizzlingFragmentShaderString = SHADER_STRING
         CVBufferSetAttachment(renderTarget, kCVImageBufferYCbCrMatrixKey, kCVImageBufferYCbCrMatrix_ITU_R_601_4, kCVAttachmentMode_ShouldPropagate);
         CVBufferSetAttachment(renderTarget, kCVImageBufferTransferFunctionKey, kCVImageBufferTransferFunction_ITU_R_709_2, kCVAttachmentMode_ShouldPropagate);
         
-        CVOpenGLESTextureCacheCreateTextureFromImage (kCFAllocatorDefault, [_movieWriterContext coreVideoTextureCache], renderTarget,
+        CVMetalTextureCacheCreateTextureFromImage (kCFAllocatorDefault, [_movieWriterContext coreVideoTextureCache], renderTarget,
                                                       NULL, // texture attributes
-                                                      GL_TEXTURE_2D,
                                                       GL_RGBA, // opengl format
                                                       (int)videoSize.width,
                                                       (int)videoSize.height,
-                                                      GL_BGRA, // native iOS format
-                                                      GL_UNSIGNED_BYTE,
                                                       0,
                                                       &renderTexture);
         
