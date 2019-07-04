@@ -314,7 +314,8 @@ static void *openGLESContextQueueKey;
 //                                                     CFDictionaryRef CV_NULLABLE textureAttributes,
 //                                                     CV_RETURNS_RETAINED_PARAMETER CVMetalTextureCacheRef CV_NULLABLE * CV_NONNULL cacheOut ) API_AVAILABLE(macosx(10.11), ios(8.0), tvos(9.0)) __WATCHOS_PROHIBITED;
 #else
-        CVReturn err = CVOpenGLESTextureCacheCreate(kCFAllocatorDefault, NULL, (__bridge void *)[self context], NULL, &_coreVideoTextureCache);
+        CVMetalTextureCacheRef _coreMetalVideoTextureCache = (CVMetalTextureCacheRef) _coreVideoTextureCache;
+        CVReturn err = CVMetalTextureCacheCreate(kCFAllocatorDefault, NULL, MTLCreateSystemDefaultDevice(), NULL, &_coreMetalVideoTextureCache);
 #endif
         
         if (err)
