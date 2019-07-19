@@ -3,6 +3,6 @@ platform :ios, '9.0'
 target 'FilterShowcase' do
   use_frameworks!
 
-  pod 'MoltenGL', '~> 0.23.1'
-  pod 'GPUImageWithMoltenGL', '~> 1.0.9'
+  pod 'MoltenGL', '~> 0.23.2'
+  pod 'GPUImageWithMoltenGL', '~> 1.0.10'
 end
